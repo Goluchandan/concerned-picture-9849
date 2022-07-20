@@ -1,9 +1,10 @@
 import "./App.css";
+import PricingPlan from "./components/PricingPlan"
 
 function App() {
   return (
     <div className="App">
-      <h1>App Components come here</h1>
+      <PricingPlan />
     </div>
   );
 }
