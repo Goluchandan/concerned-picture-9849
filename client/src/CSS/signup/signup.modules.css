@@ -1,0 +1,38 @@
+#signupNav {
+  background-color: hsl(281, 29%, 23%);
+  padding: 2rem 5rem 0.5rem 5rem;
+}
+#signupMiddle {
+  padding: 0.5rem 10rem 2rem 10rem;
+  padding-bottom: 5rem;
+  background-color: hsl(281, 29%, 23%);
+}
+#signupMiddle em,
+u {
+  color: hsl(307, 67%, 69%);
+}
+
+/* SignupTopDescription */
+#signupTopDescription {
+  color: white;
+}
+
+#signupTopDescription :first-child:not(u) {
+  font-size: 3rem;
+}
+#signupTopDescription :not(:first-child) {
+  font-size: 1.4rem;
+}
+
+/* signupFormDescDiv */
+#signupFormDescDiv {
+  display: flex;
+  gap: 5rem;
+}
+
+/* signupBottom */
+#signupBottom {
+  background-color: hsl(307, 67%, 69%);
+  padding: 0.5rem 5rem;
+  
+}
