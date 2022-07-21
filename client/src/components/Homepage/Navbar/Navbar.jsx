@@ -46,8 +46,9 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from "@chakra-ui/icons";
-import logo1 from "./Images/togglt-Logo.png";
+import logo1 from "../Footer/Images/togglt-Logo.png";
 import "./Nav.css";
+import WithAction from "./Navbartop";
 
 export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
@@ -55,6 +56,7 @@ export default function WithSubnavigation() {
   return (
     <div className="toggle_navbar">
       <div>
+        <WithAction />
         <Flex
           bg={useColorModeValue("#2c1338")}
           color={useColorModeValue("gray.600", "white")}

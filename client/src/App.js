@@ -1,11 +1,14 @@
 import "./App.css";
-import Landing from "./Landingpage/src/Landing";
+import LargeWithLogoCentered from "./components/Homepage/Footer/Footer";
+import WithSubnavigation from "./components/Homepage/Navbar/Navbar";
+import Landing from "./components/Homepage/Mainhomepage/Landing";
 
 function App() {
   return (
-    <div className="App">
-      <h1>App Components come here</h1>
+    <div>
+      <WithSubnavigation />
       <Landing />
+      <LargeWithLogoCentered />
     </div>
   );
 }
