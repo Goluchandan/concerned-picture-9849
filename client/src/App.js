@@ -1,15 +1,10 @@
 import "./App.css";
-import { Login } from "./pages/Login";
-import { Signup } from "./pages/Signup";
+import PricingPlan from "./components/PricingPage/MainPricingPage/PricingPlan"
 
 function App() {
   return (
     <div className="App">
-      {/* Pages Come here */}
-
-      {/* <Signup /> */}
-
-      <Login />
+      <PricingPlan />
     </div>
   );
 }
