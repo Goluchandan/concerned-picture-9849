@@ -1,4 +1,4 @@
-import styles from "../CSS/reviewBox.module.css"
+import styles from "./reviewBox.module.css"
 
 
 
