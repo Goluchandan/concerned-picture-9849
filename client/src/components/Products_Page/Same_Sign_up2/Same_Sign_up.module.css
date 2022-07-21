@@ -1,0 +1,89 @@
+.No_credit_card_required_main_div{
+    background: #FCE5D8;
+    height: 210px;
+    max-width: 1130px;
+    margin: 0 auto;
+}
+
+.No_credit_card_required_main_div > h3{
+    color: #412A4C;
+    font-family: 'GT Haptik Medium',sans-serif;
+    font-weight: 550;
+    line-height: 1.25;
+    margin-left: 30px;
+    padding-top: 20px;
+    font-size: clamp(2rem * 0.8, 2.5vw, 2rem);
+}
+.No_credit_card_required_main_div > p {
+    font-size: 14px;
+    line-height: 1.4;
+    color:gray;
+    margin-left: 30px;
+}
+em {
+    font-family: 'GT Haptik Medium Rotalic',sans-serif;
+    color: #E57CD8;
+}
+.No_credit_card_required_child_div{
+    display: flex;
+}
+
+.No_credit_card_required_child_div > input{
+    background: transparent;
+    border: 2px solid #ABA0AF;
+    height: 45px;
+    padding-left: 15px;
+    caret-color: #2C1338;
+    font-size: 0.875rem;
+    line-height: 1.35;
+    margin-left: 30px;
+    width: 250px;
+}
+.No_credit_card_required_child_div > p{
+    color: gray;
+    line-height: 1.5;
+    font-size: clamp( 1rem * 0.95, 1vw, 1rem );
+    margin-top: 12px;
+    margin-left: 20px;
+    font-weight: 550;
+}
+.No_credit_card_required_button_div{
+    margin-left:40px;
+    font-family: 'GT Haptik Medium',sans-serif;
+    font-size: 1rem;
+    width: 200px;
+    align-items: center;
+    border-radius: 26px;
+    border: 0;
+    cursor: pointer;
+    height: 48px;
+    transition: background-color 150ms linear,color 150ms linear;
+    background-color: #E57CD8;
+    color: #FFF;
+}
+
+.No_credit_card_required_eye_svg_div{
+    margin-left:-50px;
+    margin-top: 9px;
+}
+.No_credit_card_required_button_svg_div{
+    border-radius: 50%;
+    height:55px;
+    width:55px;
+    margin-left: 16px;
+    margin-top: -1.5px;
+    border: 0;
+    cursor: pointer;
+    height: 48px;
+    transition: background-color 150ms linear,color 150ms linear;
+    background-color: white;
+    color: #FFF;
+}
+.No_credit_card_required_google_svg_div{
+    height:32px;
+    width:32px;
+}
+.No_credit_card_required_apple_svg_div{
+    height:32px;
+    width:32px;
+}
