@@ -1,4 +1,4 @@
-import styles from "../CSS/pricingbox.module.css";
+import styles from "./pricingbox.module.css";
 import { BsCheckLg } from "react-icons/bs";
 import { AiOutlineExclamationCircle } from "react-icons/ai";
 

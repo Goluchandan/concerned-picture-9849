@@ -1,5 +1,5 @@
 import "./App.css";
-import PricingPlan from "./components/PricingPlan"
+import PricingPlan from "./components/PricingPage/MainPricingPage/PricingPlan"
 
 function App() {
   return (

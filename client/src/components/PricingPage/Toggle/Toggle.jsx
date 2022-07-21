@@ -1,4 +1,4 @@
-import "../CSS/toggle.css"
+import "./toggle.css"
 
 
 

@@ -1,8 +1,8 @@
-import styles from "../CSS/pricingplans.module.css";
-import Toggl from "./Toggle";
-import ReviewBox from "./ReviewBox";
+import styles from "./pricingplans.module.css";
+import Toggl from "../Toggle/Toggle";
+import ReviewBox from "../ReviewBox/ReviewBox";
 
-import PricingBox from "./PricingBox";
+import PricingBox from "../PricingBox/PricingBox";
 import { AiFillCaretRight } from "react-icons/ai";
 
 const PricingPlan = () => {
