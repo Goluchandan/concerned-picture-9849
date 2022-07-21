@@ -1,9 +1,15 @@
 import "./App.css";
+import { Login } from "./pages/Login";
+import { Signup } from "./pages/Signup";
 
 function App() {
   return (
     <div className="App">
-      <h1>App Components come here</h1>
+      {/* Pages Come here */}
+
+      {/* <Signup /> */}
+
+      <Login />
     </div>
   );
 }

@@ -1,0 +1,39 @@
+:root {
+  --purple: hsl(281, 49%, 15%);
+  --lightPurple: hsl(281, 29%, 23%);
+  --lightGrey: hsl(284, 9%, 66%);
+  --lightPink: hsl(307, 67%, 69%);
+}
+
+#login {
+  background-color: var(--lightPurple);
+}
+
+/* loginToSignup */
+#loginToSignup {
+  width: 40%;
+  text-align: center;
+  padding-bottom: 2rem;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+#loginToSignup p {
+  color: white;
+}
+
+#loginToSignup button {
+  width: 40%;
+  padding: 1rem 0;
+  background-color: var(--lightPink);
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: white;
+  cursor: pointer;
+}
+
+#loginToSignup button:hover {
+  background-color: gray;
+}
