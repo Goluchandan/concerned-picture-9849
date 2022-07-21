@@ -1,0 +1,16 @@
+#signupSideDescription {
+  color: white;
+}
+
+#signupSideDescriptionQuote {
+  font-size: 5rem;
+}
+
+#signupSideDescriptionDetails {
+  margin-top: -7rem;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+#signupSideDescriptionDetails :last-child {
+  font-weight: normal;
+}
