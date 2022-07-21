@@ -1,10 +1,10 @@
 import React from "react";
 
 import "../CSS/signup/signup.modules.css";
+import links from "../API/links.json";
 import { SignupForm } from "../components/signup/SignupForm";
 import { SignupNav } from "../components/signup/SignupNav";
 import { SignupTopDescription } from "../components/signup/SignupTopDescription";
-import links from "../API/links.json";
 import { SignupSideDescription } from "../components/signup/SignupSideDescription";
 import { SignupBottom } from "../components/signup/SignupBottom";
 
