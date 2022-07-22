@@ -3,6 +3,8 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import React from "react";
 import BillingInvoicing from "./components/Products_Page/Billing&Invoicing/BillingInvoicing";
+import { Signup } from "./pages/Signup";
+import { Login } from "./pages/Login";
 
 function App() {
   return (
