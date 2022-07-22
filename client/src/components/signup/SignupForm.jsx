@@ -26,8 +26,9 @@ export const SignupForm = ({ googleButtonImage, appleButtonLogo }) => {
       method: "POST",
       body: payload,
     })
-      .then((res) => res.json())
-      .then((res) => navigate("/signup"))
+      .then((res) => {
+        res.json();
+      })
       .catch((err) => console.log(err));
 
     // .then((res) => navigate("/login"))

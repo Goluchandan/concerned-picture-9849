@@ -1,3 +1,5 @@
+import { Route, Routes } from "react-router-dom";
+
 import "./App.css";
 import PricingPlan from "./components/PricingPage/MainPricingPage/PricingPlan";
 import { Login } from "./pages/Login";
@@ -9,9 +11,15 @@ function App() {
       {/* <PricingPlan /> */}
       {/* Pages Come here */}
 
-      <Signup />
+      {/* <Signup /> */}
 
       {/* <Login /> */}
+
+      <Routes>
+        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
     </div>
   );
 }
