@@ -72,3 +72,16 @@
 #signupFormUserData button:hover {
   background-color: gray;
 }
+
+/* media screen */
+@media screen and (max-width: 414px) {
+  #signupForm {
+    padding: 3rem 1rem;
+  }
+}
+
+@media only screen and (min-device-width: 415px) and (max-device-width: 1300px) {
+  #signupForm {
+    padding: 3rem 3rem;
+  }
+}

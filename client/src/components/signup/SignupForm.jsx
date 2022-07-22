@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+
 import "../../CSS/signup/signupForm.modules.css";
 import { useNavigate } from "react-router-dom";
 
@@ -15,7 +16,8 @@ export const SignupForm = ({ googleButtonImage, appleButtonLogo }) => {
     });
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = (event) => {
+    event.preventDefault();
     console.log("user in signup:", user);
     let payload = JSON.stringify(user);
 
@@ -27,9 +29,14 @@ export const SignupForm = ({ googleButtonImage, appleButtonLogo }) => {
       body: payload,
     })
       .then((res) => {
-        res.json();
+        console.log("res:", res);
+        if (!res.ok) {
+          console.log("email already present");
+          window.alert("Email already present: Please login directly");
+        }
       })
-      .catch((err) => console.log(err));
+      .catch((err) => console.log(err))
+      .then((res) => navigate("/login"));
 
     // .then((res) => navigate("/login"))
   };
@@ -62,7 +69,7 @@ export const SignupForm = ({ googleButtonImage, appleButtonLogo }) => {
         <div className="signupFormOrSide"></div>
       </div>
 
-      <form id="signupFormUserData" action="">
+      <form id="signupFormUserData" onSubmit={handleSubmit}>
         <p>Email</p>
         <input
           className="signupFormInput"
@@ -83,9 +90,7 @@ export const SignupForm = ({ googleButtonImage, appleButtonLogo }) => {
           onChange={handleChange}
         />
 
-        <button type="submit" onClick={handleSubmit}>
-          Sign up via Email
-        </button>
+        <button type="submit">Sign up via Email</button>
         <p>
           By signing up, you agree to our <u>terms of service</u>,{" "}
           <u>privacy policy</u> and to receiving marketing communication from
