@@ -255,9 +255,7 @@ em{
   padding-bottom: 15px!important;
   
 }
-.employee_page_faq_main_content_container_signup2{
-    
-}
+
 .employee_page_faq_main_content_onbording{
     display: flex;
     gap : 20px;
@@ -300,9 +298,7 @@ em{
     gap: 50px;
     text-align: left;
 }
-.get_your_team_on_Track_child_container_div{
 
-}
 .get_your_team_on_Track_child_container_div > h4{
     color: #412A4C;
     font-family: 'GT Haptik Medium',sans-serif;
@@ -324,7 +320,4 @@ em{
     font-size: clamp( 1rem * 0.95, 1vw, 1rem );
     margin-top: -18px;
     margin-bottom: 58px;
-}
-.get_your_team_on_Track_child_container_div > p {
-    
 }
