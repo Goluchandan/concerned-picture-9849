@@ -11,7 +11,7 @@ const cookieParser = require("cookie-parser");
 // require("dotenv").config();
 const connection = require("./db");
 const UserSchema = require("./models/UserModel");
-const authRouter = require("./routes/auth");
+const authRouter = require("./routes/auth.routes");
 
 //---------------------------------------
 // Middleware

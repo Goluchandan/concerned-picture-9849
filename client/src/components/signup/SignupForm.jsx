@@ -1,7 +1,38 @@
 import React from "react";
+import { useState } from "react";
 import "../../CSS/signup/signupForm.modules.css";
+import { useNavigate } from "react-router-dom";
 
 export const SignupForm = ({ googleButtonImage, appleButtonLogo }) => {
+  const navigate = useNavigate();
+
+  const [user, setUser] = useState({});
+  const handleChange = (e) => {
+    let { name, value } = e.target;
+    setUser({
+      ...user,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = () => {
+    console.log("user in signup:", user);
+    let payload = JSON.stringify(user);
+
+    fetch("http://localhost:8080/auth/signup", {
+      headers: {
+        "Content-Type": "application/json",
+      },
+      method: "POST",
+      body: payload,
+    })
+      .then((res) => res.json())
+      .then((res) => navigate("/signup"))
+      .catch((err) => console.log(err));
+
+    // .then((res) => navigate("/login"))
+  };
+
   return (
     <div id="signupForm">
       <div id="signupFormTopButtons">
@@ -38,6 +69,7 @@ export const SignupForm = ({ googleButtonImage, appleButtonLogo }) => {
           name="email"
           placeholder="    Email"
           required
+          onChange={handleChange}
         />
 
         <p>Password</p>
@@ -47,9 +79,12 @@ export const SignupForm = ({ googleButtonImage, appleButtonLogo }) => {
           name="password"
           placeholder="    Password"
           required
+          onChange={handleChange}
         />
 
-        <button>Sign up via Email</button>
+        <button type="submit" onClick={handleSubmit}>
+          Sign up via Email
+        </button>
         <p>
           By signing up, you agree to our <u>terms of service</u>,{" "}
           <u>privacy policy</u> and to receiving marketing communication from
