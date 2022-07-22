@@ -5,12 +5,16 @@ import React from "react"
 import BillingInvoicing from "./components/Products_Page/Billing&Invoicing/BillingInvoicing";
 import { Signup } from "./pages/Signup";
 import { Login } from "./pages/Login";
+import PricingPlan from "./components/PricingPage/MainPricingPage/PricingPlan";
+
 
 
 function App() {
   return (
-    <div>
-      {/* <PricingPlan /> */}
+    <div className="App">
+      <PricingPlan />
+
+
       {/* Pages Come here */}
 
       {/* <Signup /> */}
