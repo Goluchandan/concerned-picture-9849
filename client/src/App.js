@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 
 import "./App.css";
-import PricingPlan from "./components/PricingPage/MainPricingPage/PricingPlan";
-import { Login } from "./pages/Login";
-import { Signup } from "./pages/Signup";
+import React from "react"
+import BillingInvoicing from "./components/Products_Page/Billing&Invoicing/BillingInvoicing";
+
 
 function App() {
   return (
@@ -14,13 +14,15 @@ function App() {
       {/* <Signup /> */}
 
       {/* <Login /> */}
+      
+      {/* <BillingInvoicing /> */}
 
       <Routes>
         {/* <Route path="/" element={<Home />} /> */}
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
       </Routes>
-    </div>
+
   );
 }
 

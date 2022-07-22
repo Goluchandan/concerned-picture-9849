@@ -5,6 +5,8 @@ import ReviewBox from "../ReviewBox/ReviewBox";
 import PricingBox from "../PricingBox/PricingBox";
 import { AiFillCaretRight } from "react-icons/ai";
 
+import Table from "../Table/Table"
+
 const PricingPlan = () => {
     return (
         <>
@@ -21,6 +23,7 @@ const PricingPlan = () => {
             <button className={styles.planFeatureBtn}>Compare all plan features <AiFillCaretRight />  </button>
 
             <ReviewBox />
+            <Table />
 
         </>
     )
