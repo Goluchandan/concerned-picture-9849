@@ -1,16 +1,12 @@
-.signUp_childContainer{
+.signUp_mainContainer{
     background-color: #412A4C;
     max-width: 600px;
     height: 595px;
 }
-.signUp_mainContainer{
-    
-}
 .signUp_childContainer{
-   
     max-width: 500px;
     margin: 0 auto;
-    padding: 0px 45px;
+    padding : 0px 45px;
     font-family: 'GT Haptik Medium',sans-serif;
 
 
