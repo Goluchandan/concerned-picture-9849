@@ -14,3 +14,24 @@
 #signupSideDescriptionDetails :last-child {
   font-weight: normal;
 }
+
+/* media screen */
+@media screen and (max-width: 414px) {
+  #signupSideDescription {
+    margin-top: -8rem;
+  }
+
+  #signupSideDescriptionDetails {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-device-width: 415px) and (max-device-width: 1300px) {
+  #signupSideDescription {
+    margin-top: -8rem;
+  }
+
+  #signupSideDescriptionDetails {
+    font-size: 1rem;
+  }
+}
