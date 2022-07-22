@@ -7,9 +7,10 @@ import { Signup } from "./pages/Signup";
 import { Login } from "./pages/Login";
 
 
+
 function App() {
   return (
-    <div className="App">
+    <div>
       {/* <PricingPlan /> */}
       {/* Pages Come here */}
 
@@ -18,7 +19,6 @@ function App() {
       {/* <Login /> */}
       
       {/* <BillingInvoicing /> */}
-
       <Routes>
         {/* <Route path="/" element={<Home />} /> */}
         <Route path="/signup" element={<Signup />} />
