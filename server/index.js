@@ -50,5 +50,5 @@ app.listen(PORT, async () => {
   } catch {
     console.log("Something went wrong while connecting to db");
   }
-  console.log("listening on 8080");
+  console.log(`listening on PORT ${PORT}`);
 });

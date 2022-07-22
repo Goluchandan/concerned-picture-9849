@@ -1,20 +1,31 @@
+import { Route, Routes } from "react-router-dom";
+
 import "./App.css";
 import React from "react"
 import BillingInvoicing from "./components/Products_Page/Billing&Invoicing/BillingInvoicing";
-import Payroll from "./components/Products_Page/Payroll/Payroll";
-import Reporting from "./components/Products_Page/Reporting&Transp/Reporting";
-import ProjectBudget from "./components/Products_Page/Project_Budget/ProjectsBudget";
+import { Signup } from "./pages/Signup";
+import { Login } from "./pages/Login";
+
 
 
 function App() {
   return (
-    <div >
-     {/* <BillingInvoicing /> */}
-     <Payroll />
-     <Reporting />
-     <ProjectBudget />
+    <div>
+      {/* <PricingPlan /> */}
+      {/* Pages Come here */}
 
+      {/* <Signup /> */}
+
+      {/* <Login /> */}
+      
+      {/* <BillingInvoicing /> */}
+      <Routes>
+        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
     </div>
+
   );
 }
 

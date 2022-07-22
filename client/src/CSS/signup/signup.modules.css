@@ -36,3 +36,54 @@
   background-color: hsl(307, 67%, 69%);
   padding: 0.5rem 5rem;
 }
+
+/* media screen */
+@media screen and (max-width: 1300px) {
+  #signupNav {
+    padding: 0.1rem 0rem 0.5rem 0rem;
+  }
+
+  #signupTopDescription :first-child:not(u) {
+    font-size: 2rem;
+  }
+  #signupTopDescription :not(:first-child) {
+    font-size: 1rem;
+  }
+
+  #signupMiddle {
+    padding: 0.5rem 0rem 1rem 0rem;
+  }
+
+  #signupFormDescDiv {
+    flex-direction: column;
+  }
+
+  #signupBottom {
+    padding: 0.5rem 0rem 0.5rem 0rem;
+  }
+}
+
+@media only screen and (min-device-width: 415px) and (max-device-width: 1300px) {
+  #signupNav {
+    padding: 0.1rem 0rem 0.5rem 0rem;
+  }
+
+  #signupTopDescription :first-child:not(u) {
+    font-size: 2rem;
+  }
+  #signupTopDescription :not(:first-child) {
+    font-size: 1rem;
+  }
+
+  #signupMiddle {
+    padding: 0.5rem 0rem 1rem 0rem;
+  }
+
+  #signupFormDescDiv {
+    flex-direction: column;
+  }
+
+  #signupBottom {
+    padding: 0.5rem 0rem 0.5rem 0rem;
+  }
+}
