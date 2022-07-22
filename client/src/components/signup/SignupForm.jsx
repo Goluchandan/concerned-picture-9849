@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 import "../../CSS/signup/signupForm.modules.css";
-import { useNavigate } from "react-router-dom";
 
 export const SignupForm = ({ googleButtonImage, appleButtonLogo }) => {
   const navigate = useNavigate();
