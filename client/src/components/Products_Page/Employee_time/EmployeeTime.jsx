@@ -1,5 +1,8 @@
 import React from 'react'
+import SameSignUp from '../Same_Sign_up/Same_Sign-up'
+import SameSignUp2 from '../Same_Sign_up2/Same_Sign_up2'
 import styles from './employee.module.css'
+import EmployeeFAQ from './Employee_FAQ/EmployeeFAQ'
 
 const EmployeeTime = () => {
   return (
@@ -140,6 +143,52 @@ const EmployeeTime = () => {
                     </div>
                </div>
            </div>
+
+
+          <div className={styles.employee_page_faq_main_content_container}>
+            <div  className={styles.employee_page_faq_main_content_container_signup2}>
+               <SameSignUp2 />
+            </div>
+               <div className={styles.employee_page_faq_main_content_onbording}>
+                     <p>Onboarding a team?</p>
+                     <div className={styles.Employee_time_tracking_main_demo_p_div}>
+                        <p  style ={{marginTop:"19px",color: "#EA96E0",fontWeight: "bold"}}>Book a demo</p>
+                        <p  style ={{marginTop:"28px",color: "#EA96E0",fontWeight: "bold"}}></p>
+                     </div>
+               </div>
+               
+               <h2 className={styles.employee_page_faq_main_content_h2}>
+                  FAQs
+               </h2>
+               <div>
+                      <EmployeeFAQ />
+               </div>
+          </div>
+
+          <div  className = {styles.get_your_team_on_Track_main_div}>
+               <h1>
+                 It's time to get your team on <em>Track</em>
+               </h1>
+               <div className = {styles.get_your_team_on_Track_main_container_div}>
+                    <div className = {styles.get_your_team_on_Track_child_container_div}>
+                         <h4>
+                             “ 
+                         </h4>
+                          <h6>
+                              Toggl Track's edge is its utter simplicity, and simplicity fosters buy-in. If you want to see how time is spent in your team, you owe members a simple tracking interface. Toggl Track does this.
+                          </h6>
+                           <p>
+                           Michael T, Executive. 5/5 stars on Capterra.
+                           </p>
+                           <img src="https://public-assets.toggl.com/b/static/b77f69af46625ee5cf575f64ff0e38b6/2fffe/review-badges-dark.png" alt="" />
+                    </div>
+                    <div>
+                       
+                        <SameSignUp />
+                        
+                    </div>
+               </div>
+          </div>
        
    </>
   )

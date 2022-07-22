@@ -1,10 +1,13 @@
 import "./App.css";
-import PricingPlan from "./components/PricingPage/MainPricingPage/PricingPlan"
+// import EmployeeFAQ from "./components/Products_Page/Employee_time/Employee_FAQ/EmployeeFAQ";
+import EmployeeTime from "./components/Products_Page/Employee_time/EmployeeTime";
+
 
 function App() {
   return (
-    <div className="App">
-      <PricingPlan />
+    <div>
+     <EmployeeTime />
+     {/* <EmployeeFAQ /> */}
     </div>
   );
 }
