@@ -1,18 +1,34 @@
+import { Route, Routes } from "react-router-dom";
+
 import "./App.css";
-import PricingPlan from "./components/PricingPage/MainPricingPage/PricingPlan";
-import { Login } from "./pages/Login";
+import React from "react"
+import BillingInvoicing from "./components/Products_Page/Billing&Invoicing/BillingInvoicing";
 import { Signup } from "./pages/Signup";
+import { Login } from "./pages/Login";
+import PricingPlan from "./components/PricingPage/MainPricingPage/PricingPlan";
+
+
 
 function App() {
   return (
     <div className="App">
       <PricingPlan />
+
+
       {/* Pages Come here */}
 
       {/* <Signup /> */}
 
       {/* <Login /> */}
+      
+      {/* <BillingInvoicing /> */}
+      <Routes>
+        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
     </div>
+
   );
 }
 
