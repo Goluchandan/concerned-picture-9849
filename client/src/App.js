@@ -1,9 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 
 import "./App.css";
-import React from "react"
+import React from "react";
 import BillingInvoicing from "./components/Products_Page/Billing&Invoicing/BillingInvoicing";
-
 
 function App() {
   return (
@@ -14,7 +13,7 @@ function App() {
       {/* <Signup /> */}
 
       {/* <Login /> */}
-      
+
       {/* <BillingInvoicing /> */}
 
       <Routes>
@@ -22,7 +21,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
       </Routes>
-
+    </div>
   );
 }
 
