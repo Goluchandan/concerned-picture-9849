@@ -9,7 +9,7 @@ import { SignupSideDescription } from "../components/signup/SignupSideDescriptio
 import { SignupBottom } from "../components/signup/SignupBottom";
 
 export const Signup = () => {
-  console.log("links:", links.images);
+  // console.log("links:", links.images);
 
   return (
     <div id="signup">
