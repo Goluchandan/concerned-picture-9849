@@ -1,6 +1,6 @@
 import React from "react";
 import booking from "./Images/Booking.jpg";
-import "./company.css";
+import "./Company.css";
 
 function Company() {
   return (

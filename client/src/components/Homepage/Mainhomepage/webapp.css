@@ -1,12 +1,12 @@
 .everyneedbox {
   display: flex;
-  border: 2px solid green;
 }
 .everyneedbox > div:nth-child(1) {
-  border: 2px solid red;
+  padding: 20px 20px;
+  background-color: rgb(252, 229, 216);
 }
 .everyneedbox > div:nth-child(2) {
-  border: 2px solid rgb(55, 255, 0);
+  background-color: rgb(252, 229, 216);
 }
 .everyneedsingle {
   display: flex;
@@ -24,11 +24,19 @@
   grid-template-columns: repeat(2, 1fr);
 }
 h1 {
-  font-family: "GT Haptik Medium Rotalic", sans-serif;
+  /* font-family: "GT Haptik Medium Rotalic", sans-serif;
   color: rgb(86, 66, 96);
   line-height: 1.5;
   font-size: clamp(1.0125rem, 1.25vw, 1.125rem);
-  padding: 20px 10px;
+  padding: 20px 10px; */
+
+  color: rgb(65, 42, 76);
+  line-height: 1.5;
+  font-size: clamp(1.0125rem, 1.25vw, 1.125rem);
+  font-family: "GT Haptik Medium", sans-serif;
+  margin-bottom: 2px;
+  margin: 20px 20px;
+  margin-left: 20px;
 }
 p {
   color: rgb(129, 113, 135);
@@ -38,19 +46,18 @@ p {
 
 .standagainst {
   font-family: "GT Haptik Medium", sans-serif;
-  width: 80%;
-  background-color: rgb(225, 212, 217);
+  width: 100%;
+  background-color: #ffff;
   margin: auto;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid red;
 }
-.standagainst > p {
-  font-size: 5px;
-  color: blue;
-}
+
 .mobileapps {
   display: flex;
-  padding: 20px 20px;
-  background-color: rgb(225, 212, 217);
-  border: 2px solid red;
+  /* padding: 20px 20px; */
+  /* //background-color: rgb(225, 212, 217); */
 }
 .mobileapps > div h1 {
   font-family: "GT Haptik Medium Rotalic", sans-serif;
@@ -60,4 +67,18 @@ p {
 }
 .everyneedsingle > img {
   width: 25%;
+}
+.mobiletext {
+  color: rgb(129, 113, 135);
+  font-size: 0.875rem;
+  line-height: 1.35;
+}
+.mobilehead {
+  color: rgb(129, 113, 135);
+  font-family: "GT Haptik Medium", sans-serif;
+  font-size: clamp(0.95rem, 1vw, 1rem);
+  text-transform: uppercase;
+  letter-spacing: 0.25px;
+  width: 100%;
+  padding: 10px 10px;
 }
