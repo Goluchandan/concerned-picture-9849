@@ -7,12 +7,19 @@ import { Signup } from "./pages/Signup";
 import { Login } from "./pages/Login";
 import PricingPlan from "./components/PricingPage/MainPricingPage/PricingPlan";
 
+import EmployeeTime from "./components/Products_Page/Employee_time/EmployeeTime";
+
+import Payroll from "./components/Products_Page/Payroll/Payroll";
+import ProjectBudget from "./components/Products_Page/Project_Budget/ProjectsBudget";
+
+
+import Reporting from "./components/Products_Page/Reporting&Transp/Reporting";
 
 
 function App() {
   return (
     <div className="App">
-      <PricingPlan />
+      {/* <PricingPlan /> */}
 
 
       {/* Pages Come here */}
@@ -20,10 +27,16 @@ function App() {
       {/* <Signup /> */}
 
       {/* <Login /> */}
-      
+
       {/* <BillingInvoicing /> */}
       <Routes>
         {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/pricing" element={<PricingPlan />} />
+        <Route path="/billing-invoicing" element={<BillingInvoicing />} />
+        <Route path="/employee-time" element={<EmployeeTime />} />
+        <Route path="/payroll" element={<Payroll />} />
+        <Route path="/project-budget" element={<ProjectBudget />} />
+        <Route path="/reporting" element={<Reporting />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
       </Routes>
