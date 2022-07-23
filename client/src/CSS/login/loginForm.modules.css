@@ -90,3 +90,26 @@
 #loginFormCompanyLogin:hover {
   color: var(--lightPink);
 }
+
+/* media screen */
+@media screen and (max-width: 600px) {
+  #loginForm {
+    width: 70%;
+    padding: 1rem 2rem;
+  }
+
+  #loginFormTopButtons button {
+    width: 45%;
+  }
+}
+
+@media only screen and (min-device-width: 601px) and (max-device-width: 1300px) {
+  #loginForm {
+    width: 70%;
+    padding: 1rem 2rem;
+  }
+
+  #loginFormTopButtons button {
+    width: 45%;
+  }
+}

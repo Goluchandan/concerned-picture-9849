@@ -65,7 +65,7 @@
 
 @media only screen and (min-device-width: 415px) and (max-device-width: 1300px) {
   #signupNav {
-    padding: 0.1rem 0rem 0.5rem 0rem;
+    padding: 0.1rem 0rem 0.5rem 3rem;
   }
 
   #signupTopDescription :first-child:not(u) {
@@ -76,7 +76,7 @@
   }
 
   #signupMiddle {
-    padding: 0.5rem 0rem 1rem 0rem;
+    padding: 0.5rem 3rem 1rem 3rem;
   }
 
   #signupFormDescDiv {
@@ -84,6 +84,6 @@
   }
 
   #signupBottom {
-    padding: 0.5rem 0rem 0.5rem 0rem;
+    padding: 0.5rem 3rem 0.5rem 3rem;
   }
 }

@@ -20,7 +20,7 @@ function App() {
       {/* <BillingInvoicing /> */}
 
       <Routes>
-        {/* <Route path="/" element={<DummyHome />} /> */}
+        <Route path="/" element={<DummyHome />} />
         <Route path="/:token" element={<DummyHome />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
