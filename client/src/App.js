@@ -6,6 +6,7 @@ import BillingInvoicing from "./components/Products_Page/Billing&Invoicing/Billi
 
 import { Signup } from "./pages/Signup";
 import { Login } from "./pages/Login";
+
 import { DummyHome } from "./pages/DummyHome";
 
 import PricingPlan from "./components/PricingPage/MainPricingPage/PricingPlan";
@@ -27,11 +28,12 @@ function App() {
       {/* <Signup /> */}
 
       {/* <Login /> */}
-
       {/* <BillingInvoicing /> */}
+
       <Routes>
         <Route path="/" element={<DummyHome />} />
         <Route path="/:token" element={<DummyHome />} />
+
         {/* <Route path="/" element={<Home />} /> */}
 
         <Route path="/pricing" element={<PricingPlan />} />
