@@ -1,28 +1,27 @@
 import React from 'react'
 import SameSignUp from '../Same_Sign_up/Same_Sign-up'
 import SameSignUp2 from '../Same_Sign_up2/Same_Sign_up2'
-import styles from './employee.module.css'
-import EmployeeFAQ from './Employee_FAQ/EmployeeFAQ';
+import styles from '../Employee_time/employee.module.css'
+import EmployeeFAQ from '../Employee_time/Employee_FAQ/EmployeeFAQ';
 import { useNavigate } from "react-router-dom";
 
 
-
-const EmployeeTime = () => {
+const ProjectBudget = () => {
      const navigate = useNavigate();
 
      return (
           <>
                {/*here i worked on  Employee time tracking software your team will love */}
 
-               <div className={styles.Employee_time_tracking_main_div}>
+               <div className={styles.Employee_time_tracking_main_div} style={{ height: "550px" }}>
                     <div>
                          <h1>
-                              Employee time tracking software your team will love
+                              Keep projects profitable and on track with project time tracking
                          </h1>
                     </div>
                     <div>
                          <p>
-                              A sleek, intuitive employee time tracker that allows your team to track time on multiple platforms with just one click.
+                              Quickly see how time is spent on across multiple projects, clients, and teams. Get insights on the profitability of every project.
                          </p>
                     </div>
                     <div>
@@ -34,7 +33,7 @@ const EmployeeTime = () => {
                     </div>
                     <div className={styles.Employee_time_tracking_main_button_div}>
                          <div>
-                              <button onClick={() => navigate("/signup")}  >Sign up for free</button>
+                              <button onClick={() => navigate("/signup")} >Sign up for free</button>
                          </div>
                          <div className={styles.Employee_time_tracking_main_demo_p_div}>
                               <p>Book a demo</p>
@@ -57,7 +56,7 @@ const EmployeeTime = () => {
                <div>
                     <div className={styles.alternative_to_timesheets_main_div}>
                          <h2>
-                              An alternative to timesheets your employees will say <em>yes</em> to
+                              Plan better, <em>stress less</em>, and hit deadlines and revenue goals
                          </h2>
                     </div>
 
@@ -66,14 +65,14 @@ const EmployeeTime = () => {
                     <div className={styles.Less_timesheets_main_div} >
                          <div>
                               <h3>
-                                   Less timesheets, more time
+                                   Boost profitability
                               </h3>
                               <p>
-                                   Nobody likes timesheet entry. It's time-consuming and relies too much on memory. Our solution? Intuitive employee time tracking software for large teams, with accurate time reports you can export in seconds.
+                                   Track project performance and assess project profitability in real time. Compare projects, months, and clients, and see how labor costs stack up against billable rates.
                               </p>
                          </div>
                          <div className={styles.Less_timesheets_img_main_div} >
-                              <img src="https://public-assets.toggl.space/ae4e1ee7-9a08-426a-b230-a537a04e9aa6/static/44cc4850fe2159d12bc9b92f294ea6b2/2c40e/feature-timesheets-one-click.png" alt="" />
+                              <img src="https://public-assets.toggl.space/a23815ec-b3c6-4f07-8a09-fab3a1c4363f/static/0df6b1b7e0a4cfc5fdc298b9d2e0f718/81511/feature-project-insights.png" alt="" />
                          </div>
                     </div>
 
@@ -82,14 +81,14 @@ const EmployeeTime = () => {
                     <div className={styles.Less_timesheets_main_div} style={{ flexDirection: "row-reverse" }}>
                          <div>
                               <h3 >
-                                   Bye-bye admin time
+                                   Plan with confidence
                               </h3>
                               <p>
-                                   We're all about less admin for everyone, whether you're managing projects, teams, or an entire business. Filter, sort, and export your data by user, task, or project.
+                                   Scope projects based on hard data, not gut intuition. Use historical project time tracking insights for better cost projections, forecasts, and realistic budgets.
                               </p>
                          </div>
                          <div className={styles.Less_timesheets_img_main_div}>
-                              <img src="https://public-assets.toggl.space/ae4e1ee7-9a08-426a-b230-a537a04e9aa6/static/59e7925ceb89c4e8844b5d3cf0f9da15/c8e9a/feature-report-user-alt.png" alt="" />
+                              <img src="https://public-assets.toggl.space/a23815ec-b3c6-4f07-8a09-fab3a1c4363f/static/24f48a74d42287c7bbebe9cb6a28ea7e/70109/feature-historical-data.png" alt="" />
                          </div>
                     </div>
 
@@ -97,54 +96,54 @@ const EmployeeTime = () => {
                     <div className={styles.Less_timesheets_main_div}>
                          <div>
                               <h3>
-                                   Seamless, second-nature time tracking for employees
+                                   Keep your team busy but not burdened
                               </h3>
                               <p>
-                                   Our employee time tracking solution keeps the end user in mind. Time tracking is a breeze with integrations with 100+ apps via our browser extensions, and our native calendar and project management integrations.
+                                   No one should be overworked or underworked. Get a bird's eye view of where your team is spending time. Reshuffle the work as needed.
                               </p>
                          </div>
                          <div className={styles.Less_timesheets_img_main_div}>
-                              <img src="https://public-assets.toggl.space/ae4e1ee7-9a08-426a-b230-a537a04e9aa6/static/048853ffbfd04412bc9e99c1a7d41a59/88b27/feature-integrations-large.png" alt="" />
+                              <img src="https://public-assets.toggl.space/a23815ec-b3c6-4f07-8a09-fab3a1c4363f/static/6ac44cd598477e9322efd7591c226171/c69c8/feature-team-dashboard-full.png" alt="" />
                          </div>
                     </div>
                </div>
 
-               <div className={styles.co_founder_of_Newlogic_main_div}>
+               <div className={styles.co_founder_of_Newlogic_main_div} style={{ height: "300px" }}>
                     <div>
                          <h4>
-                              “For people who have never used employee time tracking software before, it’s extremely easy and intuitive, as well as non-invasive. That’s why there was no resistance when we introduced the tool to our team.”
+                              “Toggl Track has given us actual data about our labor; we're able to see how much time each step of our creative process takes. As women in an industry that remains male-dominated, it's really important to us that our work is rewarded appropriately.”
                          </h4>
                          <p>
-                              — Greg Martel, COO and co-founder of Newlogic
+                              — Bethany Kaylor, Writer at RogueMark Studios
                          </p>
                     </div>
                     <div>
-                         <img src="https://public-assets.toggl.space/ae4e1ee7-9a08-426a-b230-a537a04e9aa6/static/0439498177848d1bb6168be953252ac7/51ce3/speaker-greg.png" alt="" />
+                         <img style={{ marginTop: "40px" }} src="https://public-assets.toggl.space/a23815ec-b3c6-4f07-8a09-fab3a1c4363f/static/da16487b593f28a81ff4d4a02488b83f/51ce3/speaker-bethany.png" alt="" />
                     </div>
                </div>
 
 
                <div>
                     <div className={styles.Designed_to_empower_main_div}>
-                         <h2>
-                              Designed to <em>empower</em> teams
+                         <h2 style={{ maxWidth: "700px", margin: "0 auto" }}>
+                              <em>Streamlined</em> project time tracking, so you can focus on the strategy
                          </h2>
                     </div>
                     <div className={styles.Designed_to_empower_logo_main_div}>
                          <div className={styles.Designed_to_empower_logo_child_div}>
-                              <img style={{ width: "80%" }} src="https://public-assets.toggl.space/ae4e1ee7-9a08-426a-b230-a537a04e9aa6/static/780b1be4eb20e534d7864f6f3dc65895/fafe8/illo-desktop-mobile.png" alt="" />
-                              <h5>Works everywhere</h5>
-                              <p>Give your team more options. Let them track time from the web app, desktop and mobile apps, or even from their stopwatch.</p>
+                              <img style={{ width: "80%" }} src="https://public-assets.toggl.space/a23815ec-b3c6-4f07-8a09-fab3a1c4363f/static/7b895350a4c9d902b51951b23df9dc0f/fd958/illo-integrations.png" alt="" />
+                              <h5>100+ integrations</h5>
+                              <p>Use Toggl Track with the tools you already use. Embed a timer in 100+ popular tools with the Track browser extensions.</p>
                          </div>
                          <div className={styles.Designed_to_empower_logo_child_div}>
-                              <img src="https://public-assets.toggl.space/ae4e1ee7-9a08-426a-b230-a537a04e9aa6/static/e1444ff4e5168185be80f7d13a9458e4/88313/illo-creepy-eye.png" alt="" />
-                              <h5>We say no to employee surveillance</h5>
-                              <p>And you get a yes from your employees. Employee buy-in is key to accurate data, so we're committed to features that help empower employees.</p>
+                              <img style={{ width: "80%" }} src="https://public-assets.toggl.space/a23815ec-b3c6-4f07-8a09-fab3a1c4363f/static/780b1be4eb20e534d7864f6f3dc65895/fafe8/illo-desktop-mobile.png" alt="" />
+                              <h5>Works where you work</h5>
+                              <p>Track time on our web app, desktop, and mobile apps. You can even start the timer from your stopwatch!</p>
                          </div>
                          <div className={styles.Designed_to_empower_logo_child_div}>
-                              <img src="https://public-assets.toggl.space/ae4e1ee7-9a08-426a-b230-a537a04e9aa6/static/aaeb281e59e470758c049603db7f86a6/91868/illo-ok-hand.png" alt="" />
-                              <h5>Designed to be easy</h5>
-                              <p>No instruction manual needed. Get your team onboard and start tracking. If you ever need help, our support team has a track record of responding within 3 hours!</p>
+                              <img style={{ width: "60%" }} src="https://public-assets.toggl.space/a23815ec-b3c6-4f07-8a09-fab3a1c4363f/static/2a0360ce37c992839633143fb27b29b4/5c336/illo-calendar-view.png" alt="" />
+                              <h5>Calendar views</h5>
+                              <p>Connect your calendar tools to see your daily and weekly events in Toggl Track, and even copy calendar events as time entries.</p>
                          </div>
                     </div>
                </div>
@@ -171,8 +170,8 @@ const EmployeeTime = () => {
                </div>
 
                <div className={styles.get_your_team_on_Track_main_div}>
-                    <h1>
-                         It's time to get your team on <em>Track</em>
+                    <h1 style={{ maxWidth: "700px", margin: "0 auto" }}>
+                         It's time to get your projects on <em>Track</em>
                     </h1>
                     <div className={styles.get_your_team_on_Track_main_container_div}>
                          <div className={styles.get_your_team_on_Track_child_container_div}>
@@ -180,10 +179,10 @@ const EmployeeTime = () => {
                                    “
                               </h4>
                               <h6>
-                                   Toggl Track's edge is its utter simplicity, and simplicity fosters buy-in. If you want to see how time is spent in your team, you owe members a simple tracking interface. Toggl Track does this.
+                                   With Toggl Track, we’re never late with projects. We always fulfill our commitments. Because we never over-scope, and we never experience scope creep.
                               </h6>
                               <p>
-                                   Michael T, Executive. 5/5 stars on Capterra.
+                                   Marek Šolc, CFO of Ligting Beetle, A Design Studio
                               </p>
                               <img src="https://public-assets.toggl.com/b/static/b77f69af46625ee5cf575f64ff0e38b6/2fffe/review-badges-dark.png" alt="" />
                          </div>
@@ -199,4 +198,4 @@ const EmployeeTime = () => {
      )
 }
 
-export default EmployeeTime
+export default ProjectBudget

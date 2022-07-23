@@ -9,7 +9,8 @@ import { AiOutlineExclamationCircle } from "react-icons/ai";
 const Table = () => {
 
     return (
-        <div className={styles.main_container}>
+        <div className={styles.main_container} id="pricingTable">
+            <h1>Full Plan Comparison</h1>
             <div className={styles.container_heading}>Time Tracking</div>
             <div className={styles.grid_container}>
 

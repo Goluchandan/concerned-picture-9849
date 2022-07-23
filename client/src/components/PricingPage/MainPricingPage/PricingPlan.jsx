@@ -1,15 +1,19 @@
 import styles from "./pricingplans.module.css";
 import Toggl from "../Toggle/Toggle";
 import ReviewBox from "../ReviewBox/ReviewBox";
+import Download from "../Download/Download"
 
 import PricingBox from "../PricingBox/PricingBox";
 import { AiFillCaretRight } from "react-icons/ai";
+import HomeSameSignUp from "../../Products_Page/HomePage_sign_up/HomeSameSignUp.jsx";
+
+import EmployeeFAQ from "../../Products_Page/Employee_time/Employee_FAQ/EmployeeFAQ"
 
 import Table from "../Table/Table"
 
 const PricingPlan = () => {
     return (
-        <>
+        <div className={styles.container}>
             <h1 className={styles.heading}>Pricing Plans</h1>
             <p>No credit card required. All plans come with a free, 30-day trial of our Premium features.</p>
             <p className={styles.togglebtnheading}>Choose your billing:</p>
@@ -23,9 +27,17 @@ const PricingPlan = () => {
             <button className={styles.planFeatureBtn}>Compare all plan features <AiFillCaretRight />  </button>
 
             <ReviewBox />
+            <EmployeeFAQ />
             <Table />
+            <Download />
+            <div style={{ width: "70%", margin: "auto", textAlign: "left" }}>
+                <HomeSameSignUp />
 
-        </>
+
+            </div>
+
+
+        </div>
     )
 }
 

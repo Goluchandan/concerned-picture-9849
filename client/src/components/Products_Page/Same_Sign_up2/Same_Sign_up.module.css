@@ -11,7 +11,7 @@
     font-weight: 550;
     line-height: 1.25;
     margin-left: 30px;
-    padding-top: 20px;
+    padding-top: 15px;
     font-size: clamp(2rem * 0.8, 2.5vw, 2rem);
 }
 .No_credit_card_required_main_div > p {
@@ -19,6 +19,7 @@
     line-height: 1.4;
     color:gray;
     margin-left: 30px;
+    margin-top:25px;
 }
 em {
     font-family: 'GT Haptik Medium Rotalic',sans-serif;
@@ -26,6 +27,7 @@ em {
 }
 .No_credit_card_required_child_div{
     display: flex;
+    margin-top: -18px;
 }
 
 .No_credit_card_required_child_div > input{
