@@ -5,6 +5,7 @@ import React from "react"
 import BillingInvoicing from "./components/Products_Page/Billing&Invoicing/BillingInvoicing";
 import { Signup } from "./pages/Signup";
 import { Login } from "./pages/Login";
+import HomeSameSignUp from "./components/Products_Page/HomePage_sign_up/HomeSameSignUp";
 
 
 function App() {
@@ -16,13 +17,14 @@ function App() {
       {/* <Signup /> */}
 
       {/* <Login /> */}
+      <HomeSameSignUp />
       
       {/* <BillingInvoicing /> */}
-      <Routes>
+      {/* <Routes> */}
         {/* <Route path="/" element={<Home />} /> */}
-        <Route path="/signup" element={<Signup />} />
+        {/* <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
-      </Routes>
+      </Routes> */}
     </div>
 
   );
