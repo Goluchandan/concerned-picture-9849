@@ -1,0 +1,79 @@
+.HomeSamesignUp_mainContainer {
+  background-color: #412a4c;
+  max-width: 600px;
+  height: 525px;
+}
+.HomeSamesignUp_childContainer {
+  max-width: 550px;
+  margin: auto;
+  padding: 0px 45px;
+  font-family: "GT Haptik Medium", sans-serif;
+}
+.HomeSamesignUp_childContainer > h2 {
+  padding-top: 60px;
+  color: #fce5d8;
+  font-family: "GT Haptik Medium", sans-serif;
+  font-weight: 550;
+  line-height: 1.2;
+  font-size: clamp(3rem * 0.55, 3.5vw, 3rem);
+}
+.HomeSamesignUp_childContainer_p {
+  /* margin-top: -25px; */
+  color: #fce5d8;
+  line-height: 1.5;
+  font-size: clamp(1rem * 0.98, 1vw, 1rem);
+  margin-bottom: 10px;
+}
+.HomeSamesignUp_mainContainer_button_div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.HomeSamesignUp_mainContainer_button {
+  height: 50px;
+  width: 220px;
+  display: flex;
+  font-size: 1rem;
+  background: white;
+  border: none;
+  color: #2c1338;
+  cursor: pointer;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.HomeSamesignUp_mainContainer_button:hover {
+  background-color: #fce5d8;
+}
+.HomeSamesignUp_mainContainer_svg {
+  height: 32px;
+  width: 32px;
+  margin-right: 5px;
+}
+
+.HomeSamesignUp_mainContainer_via_email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  height: 55px;
+  width: 100%;
+  border-radius: 50px;
+  font-size: 1rem;
+  color: #2c1338;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 550;
+  letter-spacing: 1px;
+}
+
+.HomeSamesignUp_mainContainer_via_email:hover {
+  background-color: #fce5d8;
+}
+.HomeSamesignUp_mainContaine_description {
+  margin-top: 37px;
+  color: #fce5d8;
+  font-size: 14px;
+}

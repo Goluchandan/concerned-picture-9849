@@ -1,0 +1,63 @@
+.everyneedbox {
+  display: flex;
+  border: 2px solid green;
+}
+.everyneedbox > div:nth-child(1) {
+  border: 2px solid red;
+}
+.everyneedbox > div:nth-child(2) {
+  border: 2px solid rgb(55, 255, 0);
+}
+.everyneedsingle {
+  display: flex;
+  width: 100%;
+
+  background-color: rgb(252, 229, 216);
+}
+.everyneedsingle > img {
+  padding: 20px 20px;
+  top: 20px;
+  width: 70%;
+}
+.everyneeddouble {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+h1 {
+  font-family: "GT Haptik Medium Rotalic", sans-serif;
+  color: rgb(86, 66, 96);
+  line-height: 1.5;
+  font-size: clamp(1.0125rem, 1.25vw, 1.125rem);
+  padding: 20px 10px;
+}
+p {
+  color: rgb(129, 113, 135);
+  font-size: 0.875rem;
+  line-height: 1.35;
+}
+
+.standagainst {
+  font-family: "GT Haptik Medium", sans-serif;
+  width: 80%;
+  background-color: rgb(225, 212, 217);
+  margin: auto;
+}
+.standagainst > p {
+  font-size: 5px;
+  color: blue;
+}
+.mobileapps {
+  display: flex;
+  padding: 20px 20px;
+  background-color: rgb(225, 212, 217);
+  border: 2px solid red;
+}
+.mobileapps > div h1 {
+  font-family: "GT Haptik Medium Rotalic", sans-serif;
+  color: rgb(86, 66, 96);
+  line-height: 1.5;
+  font-size: clamp(1.0125rem, 1.25vw, 1.125rem);
+}
+.everyneedsingle > img {
+  width: 25%;
+}
