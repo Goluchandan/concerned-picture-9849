@@ -25,7 +25,7 @@
 }
 
 .download_description>h1 {
-    width: 50%;
+    width: 77%;
     font-size: 45px;
     font-weight: bold;
     margin: auto;
@@ -43,38 +43,24 @@
     color: gray;
 }
 
-@media (min-width:500px) and (max-width:1500px) {
-    .download_container {
-        /* background-color: green; */
-        width: 80%;
-        margin: auto;
-        height: 50%;
-        text-align: center;
-    }
 
-    .download_description>h1 {
-        width: 50%;
-        font-size: 45px;
-        font-weight: bold;
-        margin: auto;
-
-    }
-}
 
 
 .download_types {
     margin-bottom: 100px;
     display: flex;
     justify-content: space-around;
-    width: 60%;
-    background-color: red;
+    width: 90%;
 
 }
 
 .download_type {
     margin-bottom: 100px;
-    width: 20%;
-    background-color: green;
+    width: 24%;
+}
+
+.download_type_heading {
+    padding: 20px;
 }
 
 .download_type_heading>img {
@@ -83,16 +69,105 @@
 }
 
 
+.download_type_heading h5 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.download_btn_props {
+    border: none;
+    font-size: 16px;
+    align-items: center;
+}
+
 .download_btn_ios {
     width: 70px;
     height: 50px;
-    padding: 10px;
     border-radius: 50px;
+    margin-right: 10px;
+
+}
+
+.download_btn_ios>img {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
 }
 
 .download_btn_android {
     width: 150px;
     height: 50px;
-    padding: 10px;
     border-radius: 50px;
+}
+
+.download_btn_android>img {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+
+.download_btn_windows {
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+
+.download_btn_windows>img {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+.download_btn_macOS {
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+
+.download_btn_macOS>img {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+
+.download_btn_signup {
+    width: 180px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+    background-color: #e57cd8;
+}
+
+
+.download_btn_chrome {
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+
+
+.download_btn_chrome>img {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+.download_btn_firefox {
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+
+.download_btn_firefox>img {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
 }

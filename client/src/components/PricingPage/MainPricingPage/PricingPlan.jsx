@@ -10,7 +10,7 @@ import Table from "../Table/Table"
 
 const PricingPlan = () => {
     return (
-        <>
+        <div className={styles.container}>
             <h1 className={styles.heading}>Pricing Plans</h1>
             <p>No credit card required. All plans come with a free, 30-day trial of our Premium features.</p>
             <p className={styles.togglebtnheading}>Choose your billing:</p>
@@ -27,7 +27,7 @@ const PricingPlan = () => {
             <Table />
             <Download />
 
-        </>
+        </div>
     )
 }
 

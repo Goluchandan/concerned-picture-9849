@@ -24,11 +24,13 @@
 
 #toggle_container input[type=radio].toggle {
     display: none;
+    color: black;
 }
 
 #toggle_container input[type=radio].toggle+label {
     cursor: pointer;
     min-width: 60px;
+    color: black;
 }
 
 #toggle_container input[type=radio].toggle+label:hover {

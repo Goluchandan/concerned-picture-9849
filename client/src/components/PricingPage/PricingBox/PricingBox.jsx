@@ -82,7 +82,7 @@ const PricingBox = () => {
 
                 </div>
 
-                <div className={styles.productCard}>
+                <div className={`${styles.productCard} ${styles.premiumPopup}`}>
                     <h6>Premium</h6>
                     <p>Powerful tools to keep growing teams aligned and agile</p>
 

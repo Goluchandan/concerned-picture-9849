@@ -1,5 +1,14 @@
-body {
+/* body {
     background-color: #2d1738;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+} */
+
+.container {
+    background-color: #2d1738;
+    margin: 0;
+    padding: 0;
     color: white;
     font-family: Arial;
     text-align: center;
@@ -11,9 +20,21 @@ li {
     padding: 0;
 }
 
-.heading {
-    margin-top: 50px;
+/* h1,
+h2,
+h4,
+h3,
+h5,
+h6 {
+    margin: 0px;
+    padding: 0px;
+} */
+
+.container .heading {
+    padding-top: 50px;
     font-size: 40px;
+    margin: 0px;
+    background-color: #2d1738;
 }
 
 .togglebtnheading {
