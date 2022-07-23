@@ -28,19 +28,41 @@ app.use("/auth", authRouter);
 
 //---------------------------------------
 app.get("/", async (req, res) => {
+  console.log("Hello!");
+
+  console.log("req:", req.params);
   res.send("Hello!");
 });
 
-app.get("/users", async (req, res) => {
-  const users = await UserSchema.find();
-  res.send(users);
+app.get("/:token", async (req, res) => {
+  // console.log("req2:", req.params);
+
+  if (req.params) {
+    let searchResult = await UserSchema.find({ __id: { $regex: req.params } });
+    // console.log("searchResult:", searchResult);
+
+    let sendEmail = "";
+    searchResult.map((e) => {
+      // console.log(e._id);
+      if (e._id == req.params.token) {
+        sendEmail = e.email;
+        console.log(e.email);
+        return res.send([sendEmail]);
+      }
+    });
+  }
 });
 
-app.post("/users", async (req, res) => {
-  const users = await new UserSchema(req.body);
-  await users.save();
-  res.send(users);
-});
+// app.get("/users", async (req, res) => {
+//   const users = await UserSchema.find();
+//   res.send(users);
+// });
+
+// app.post("/users", async (req, res) => {
+//   const users = await new UserSchema(req.body);
+//   await users.save();
+//   res.send(users);
+// });
 
 //---------------------------------------
 // Server

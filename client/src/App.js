@@ -5,6 +5,7 @@ import React from "react";
 import BillingInvoicing from "./components/Products_Page/Billing&Invoicing/BillingInvoicing";
 import { Signup } from "./pages/Signup";
 import { Login } from "./pages/Login";
+import { DummyHome } from "./pages/DummyHome";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <BillingInvoicing /> */}
 
       <Routes>
-        {/* <Route path="/" element={<Home />} /> */}
+        {/* <Route path="/" element={<DummyHome />} /> */}
+        <Route path="/:token" element={<DummyHome />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
       </Routes>
