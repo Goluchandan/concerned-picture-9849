@@ -5,6 +5,9 @@ import Download from "../Download/Download"
 
 import PricingBox from "../PricingBox/PricingBox";
 import { AiFillCaretRight } from "react-icons/ai";
+import HomeSameSignUp from "../../Products_Page/HomePage_sign_up/HomeSameSignUp.jsx";
+
+import EmployeeFAQ from "../../Products_Page/Employee_time/Employee_FAQ/EmployeeFAQ"
 
 import Table from "../Table/Table"
 
@@ -24,8 +27,15 @@ const PricingPlan = () => {
             <button className={styles.planFeatureBtn}>Compare all plan features <AiFillCaretRight />  </button>
 
             <ReviewBox />
+            <EmployeeFAQ />
             <Table />
             <Download />
+            <div style={{ width: "70%", margin: "auto", textAlign: "left" }}>
+                <HomeSameSignUp />
+
+
+            </div>
+
 
         </div>
     )
