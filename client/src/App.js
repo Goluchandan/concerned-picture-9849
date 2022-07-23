@@ -1,10 +1,13 @@
 import { Route, Routes } from "react-router-dom";
 
 import "./App.css";
-import React from "react"
+import React from "react";
 import BillingInvoicing from "./components/Products_Page/Billing&Invoicing/BillingInvoicing";
 import { Signup } from "./pages/Signup";
 import { Login } from "./pages/Login";
+
+import { DummyHome } from "./pages/DummyHome";
+
 import PricingPlan from "./components/PricingPage/MainPricingPage/PricingPlan";
 
 import EmployeeTime from "./components/Products_Page/Employee_time/EmployeeTime";
@@ -27,9 +30,15 @@ function App() {
       {/* <Signup /> */}
 
       {/* <Login /> */}
+       {/* <BillingInvoicing /> */}
+       
+       
 
-      {/* <BillingInvoicing /> */}
       <Routes>
+      
+      <Route path="/" element={<DummyHome />} />
+        <Route path="/:token" element={<DummyHome />} />
+        
         {/* <Route path="/" element={<Home />} /> */}
         <Route path="/pricing" element={<PricingPlan />} />
         <Route path="/billing-invoicing" element={<BillingInvoicing />} />
@@ -37,10 +46,13 @@ function App() {
         <Route path="/payroll" element={<Payroll />} />
         <Route path="/project-budget" element={<ProjectBudget />} />
         <Route path="/reporting" element={<Reporting />} />
+        
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
       </Routes>
     </div>
+        
+        
 
   );
 }

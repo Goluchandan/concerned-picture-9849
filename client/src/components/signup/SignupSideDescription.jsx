@@ -14,8 +14,8 @@ export const SignupSideDescription = () => {
         </p>
 
         <p>
-          <em>It just works</em>, even in a team where some members find new
-          interfaces challenging.
+          It just works, even in a team where some members find new interfaces
+          challenging.
         </p>
 
         <p>— Verified G2Crowd review. 5/5 stars.</p>
