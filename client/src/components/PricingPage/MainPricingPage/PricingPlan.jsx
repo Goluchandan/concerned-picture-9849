@@ -13,38 +13,44 @@ import Table from "../Table/Table";
 
 import LargeWithLogoCentered from "../../Homepage/Footer/Footer"
 
-
+import HomeNavbar from "../../Products_Page/Home_Navbar/HomeNavbar.jsx"
 
 const PricingPlan = () => {
     return (
 
-        <div className={styles.container}>
-            <h1 className={styles.heading}>Pricing Plans</h1>
-            <p>No credit card required. All plans come with a free, 30-day trial of our Premium features.</p>
-            <p className={styles.togglebtnheading}>Choose your billing:</p>
-            <Toggl />
 
-            <PricingBox />
-            <br />
-            <br />
-            <div className={styles.description}>All plans come with a free, 30-day trial of Toggl Track Premium—no credit card required. You can choose to upgrade at the end of the trial or continue using Track for free.</div>
-
-            <button className={styles.planFeatureBtn}>Compare all plan features <AiFillCaretRight />  </button>
-
-            <ReviewBox />
-            <EmployeeFAQ />
-            <Table />
-            <Download />
-            <div style={{ width: "70%", margin: "auto", textAlign: "left" }}>
-                <HomeSameSignUp />
-
-
-            </div>
+        <div>
             <div>
-                <LargeWithLogoCentered />
+                <HomeNavbar />
             </div>
+            <div className={styles.container}>
+                <h1 className={styles.heading}>Pricing Plans</h1>
+                <p>No credit card required. All plans come with a free, 30-day trial of our Premium features.</p>
+                <p className={styles.togglebtnheading}>Choose your billing:</p>
+                <Toggl />
+
+                <PricingBox />
+                <br />
+                <br />
+                <div className={styles.description}>All plans come with a free, 30-day trial of Toggl Track Premium—no credit card required. You can choose to upgrade at the end of the trial or continue using Track for free.</div>
+
+                <button className={styles.planFeatureBtn}>Compare all plan features <AiFillCaretRight />  </button>
+
+                <ReviewBox />
+                <EmployeeFAQ />
+                <Table />
+                <Download />
+                <div style={{ width: "70%", margin: "auto", textAlign: "left" }}>
+                    <HomeSameSignUp />
 
 
+                </div>
+                <div>
+                    <LargeWithLogoCentered />
+                </div>
+
+
+            </div>
         </div>
     )
 }
