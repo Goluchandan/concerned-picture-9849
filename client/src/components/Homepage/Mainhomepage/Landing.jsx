@@ -1,20 +1,35 @@
 import { useState } from "react";
-// import logo from "./logo.svg";
-// import "./App.css";
-// import Navbar from "./Components/Navbar";
+
 import WithSubnavigation from "../Navbar/Navbar";
 
 import LargeWithLogoCentered from "../Footer/Footer";
+import WithAction from "../Navbar/Navbartop";
+import Bodyabove from "./Bodyabove";
+import Starttrack from "./Starttrack";
+import Threeboxes from "./Threeboxes";
+import TogglTrack from "./Toggltrack";
+import Timetracking from "./Timetracking";
+import Footertop from "../Footer/Footer";
+import LargeWithLogoCentered from "../Footer/Footer"
 
 function Landing() {
   const [count, setCount] = useState(0);
 
   return (
     <div className="App">
-      {/* <WithAction /> */}
-      {/* <WithSubnavigation />
+      <WithAction />
+      <WithSubnavigation />
 
-      <LargeWithLogoCentered /> */}
+      <Bodyabove />
+
+      <Starttrack />
+      <Threeboxes />
+      {/* <Webapp /> */}
+      <TogglTrack />
+      <Timetracking />
+      <Footertop />
+
+      <LargeWithLogoCentered />
     </div>
   );
 }
