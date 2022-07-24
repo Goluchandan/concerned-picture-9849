@@ -54,17 +54,23 @@ authRouter.post("/login", async (req, res) => {
       res.status(500).send({ message: "Email or password is wrong" });
     } else {
       let check = false;
+      let send = "";
 
       searchResult.map((e) => {
         if (e.email === email && e.password === password) {
           check = true;
+          send = e._id;
         }
       });
 
       console.log("check:", check);
+      console.log("send:", send);
 
       if (!check) {
         res.status(500).send({ message: "Entered Email or password is wrong" });
+      } else {
+        // return res.status(201).send({ message: "Login success" });
+        return res.send([send]);
       }
     }
   }

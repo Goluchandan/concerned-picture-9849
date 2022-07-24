@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-
+import axios from "axios";
 import "../../CSS/login/loginForm.modules.css";
 
 export const LoginForm = ({ googleButtonImage, appleButtonLogo }) => {
@@ -16,29 +16,27 @@ export const LoginForm = ({ googleButtonImage, appleButtonLogo }) => {
     });
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    console.log("user in signup:", user);
-    let payload = JSON.stringify(user);
+    console.log("user in login:", user);
 
-    fetch("http://localhost:8080/auth/login", {
-      headers: {
-        "Content-Type": "application/json",
-      },
-      method: "POST",
-      body: payload,
-    })
-      .then((res) => {
-        console.log("res:", res);
-        // if (!res.ok) {
-        //   console.log("email already present");
-        //   window.alert("Email already present: Please login directly");
-        // }
-      })
-      .catch((err) => console.log(err))
-      // .then((res) => navigate("/"));
+    let error = null;
+    let response = await axios
+      .post("http://localhost:8080/auth/login", user)
+      .catch((err) => {
+        console.log("err:", err);
+        error = err.response.data.message;
+      });
 
-    // .then((res) => navigate("/login"))
+    if (response) {
+      console.log("response:", response.data[0]);
+      localStorage.setItem("token", response.data[0]);
+      navigate(`/${response.data[0]}`);
+    }
+    if (error) {
+      console.log("error:", error);
+      window.alert(error);
+    }
   };
 
   return (
