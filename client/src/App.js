@@ -24,15 +24,16 @@ function App() {
 
     <div>
 
-   
 
-    
+
+
 
       <Routes>
         {/* <Route path="/landing" element={<Landing />} /> */}
         {/* <Route path="/:token" element={<DummyHome />} /> */}
 
-        <Route path="/" element={<DummyHome />} />
+        {/* <Route path="/" element={<DummyHome />} /> */}
+        <Route path="/" element={<Landing />} />
 
         <Route path="/pricing" element={<PricingPlan />} />
         <Route path="/billing-invoicing" element={<BillingInvoicing />} />

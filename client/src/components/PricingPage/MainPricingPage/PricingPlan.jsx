@@ -11,9 +11,16 @@ import EmployeeFAQ from "../../Products_Page/Employee_time/Employee_FAQ/Employee
 
 import Table from "../Table/Table";
 
-import LargeWithLogoCentered from "../../Homepage/Footer/Footer"
 
-import HomeNavbar from "../../Products_Page/Home_Navbar/HomeNavbar.jsx"
+import HomeNavbar from "../../Products_Page/Home_Navbar/HomeNavbar.jsx";
+
+
+import Footertop from "../../Homepage/Footer/Footer";
+
+
+
+
+
 
 const PricingPlan = () => {
     return (
@@ -45,13 +52,19 @@ const PricingPlan = () => {
 
 
                 </div>
-                <div>
-                    <LargeWithLogoCentered />
+
+
+                <div style={{ backgroundColor: "#2d1738", textAlign: "left", marginTop: "50px" }}>
+                    <div style={{ width: "80%", margin: "0 auto" }}>
+                        <Footertop />
+
+                    </div>
                 </div>
 
 
+
             </div>
-        </div>
+        </div >
     )
 }
 
