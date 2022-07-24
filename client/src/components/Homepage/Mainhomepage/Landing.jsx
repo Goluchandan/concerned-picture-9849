@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import WithSubnavigation from "../Navbar/Navbar";
 
-import LargeWithLogoCentered from "../Footer/Footer";
+// import LargeWithLogoCentered from "../Footer/Footer";
 import WithAction from "../Navbar/Navbartop";
 import Bodyabove from "./Bodyabove";
 import Starttrack from "./Starttrack";
@@ -16,9 +16,7 @@ function Landing() {
 
   return (
     <div className="App">
-
       <WithAction />
-      <WithSubnavigation />
 
       <Bodyabove />
 
@@ -27,8 +25,6 @@ function Landing() {
       <TogglTrack />
       <Timetracking />
       <Footertop />
-
-      <LargeWithLogoCentered />
     </div>
   );
 }

@@ -2,8 +2,8 @@ import React from "react";
 import { Text } from "@chakra-ui/react";
 import "./starttrack.css";
 import { Button, ButtonGroup } from "@chakra-ui/react";
-import save from "../Footer/Images/ajith.jpg";
-import save2 from "../Footer/Images/save2.jpg";
+import save from "../Images/ajith.jpg";
+import save2 from "../Images/save2.jpg";
 
 function Starttrack() {
   return (

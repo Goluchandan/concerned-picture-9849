@@ -17,23 +17,16 @@ import Payroll from "./components/Products_Page/Payroll/Payroll";
 import ProjectBudget from "./components/Products_Page/Project_Budget/ProjectsBudget";
 
 import Reporting from "./components/Products_Page/Reporting&Transp/Reporting";
-
-
+import Landing from "./components/Homepage/Mainhomepage/Landing";
 
 function App() {
   return (
-    <div >
-      {/* <HomeNavbar /> */}
-      {/* <HomeSameSignUp /> */}
-      {/* <NavbarProduct /> */}
-      {/* <PricingPlan /> */}
 
-      {/* Pages Come here */}
+    <div>
 
-      {/* <Signup /> */}
+   
 
-      {/* <Login /> */}
-      {/* <BillingInvoicing /> */}
+    
 
       <Routes>
         {/* <Route path="/landing" element={<Landing />} /> */}

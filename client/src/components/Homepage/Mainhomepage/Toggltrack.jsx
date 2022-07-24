@@ -1,11 +1,11 @@
 import React from "react";
-import people from "../Footer/Images/people.jpg";
+import people from "../Images/people.jpg";
 import { Button, Text } from "@chakra-ui/react";
 import { ArrowUpIcon } from "@chakra-ui/icons";
 
 import "./Toggletrack.css";
 import Company from "./Company";
-import booking from "../Footer/Images/Booking.jpg";
+import booking from "../Images/Booking.jpg";
 function TogglTrack() {
   return (
     <div className="peopletogglecontainer">
