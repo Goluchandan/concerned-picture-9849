@@ -1,28 +1,4 @@
-// import React from "react";
-// import "./Nav.css";
 
-// function Navbar() {
-//   return (
-//     <div>
-//       <div className="toggle_navbar">
-//         <div className="toggle_navbar_rightsection">
-//           <div>
-//             <p>box</p>
-//           </div>
-//           <ul className="product_cat">
-//             <li>Product</li>
-//             <li>Product</li>
-//             <li>Product</li>
-//             <li>Product</li>
-//           </ul>
-//         </div>
-//         <div>A</div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Navbar;
 import {
   Box,
   Flex,

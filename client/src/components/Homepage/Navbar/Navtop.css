@@ -1,6 +1,5 @@
 .topnavbar {
   display: flex;
-  border: 2px solid red;
   background-color: rgb(219, 29, 169);
   max-height: 40px;
 }
