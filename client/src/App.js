@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 
 import "./App.css";
 import React from "react";
- import BillingInvoicing from "./components/Products_Page/Billing&Invoicing/BillingInvoicing";
+import BillingInvoicing from "./components/Products_Page/Billing&Invoicing/BillingInvoicing";
 
 import { Signup } from "./pages/Signup";
 import { Login } from "./pages/Login";
@@ -19,14 +19,12 @@ import ProjectBudget from "./components/Products_Page/Project_Budget/ProjectsBud
 import Reporting from "./components/Products_Page/Reporting&Transp/Reporting";
 import Landing from "./components/Homepage/Mainhomepage/Landing";
 
-
-
 function App() {
   return (
-    <div >
-       {/* <HomeNavbar /> */}
-       {/* <HomeSameSignUp /> */}
-       {/* <NavbarProduct /> */}
+    <div>
+      {/* <HomeNavbar /> */}
+      {/* <HomeSameSignUp /> */}
+      {/* <NavbarProduct /> */}
       {/* <PricingPlan /> */}
 
       {/* Pages Come here */}
@@ -34,12 +32,8 @@ function App() {
       {/* <Signup /> */}
 
       {/* <Login /> */}
-<<<<<<< HEAD
       {/* <BillingInvoicing /> */}
       <Landing />
-=======
-      <BillingInvoicing />
->>>>>>> beb1f46c1e40a7b945bcf4a0216540157ea39f84
 
       <Routes>
         <Route path="/landing" element={<Landing />} />
