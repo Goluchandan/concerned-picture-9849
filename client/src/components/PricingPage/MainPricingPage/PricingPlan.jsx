@@ -11,12 +11,18 @@ import EmployeeFAQ from "../../Products_Page/Employee_time/Employee_FAQ/Employee
 
 import Table from "../Table/Table";
 
+import LargeWithLogoCentered from "../../Homepage/Footer/Footer"
 
+import HomeNavbar from "../../Products_Page/Home_Navbar/HomeNavbar.jsx"
 
 const PricingPlan = () => {
     return (
-        <>
 
+
+        <div>
+            <div>
+                <HomeNavbar />
+            </div>
             <div className={styles.container}>
                 <h1 className={styles.heading}>Pricing Plans</h1>
                 <p>No credit card required. All plans come with a free, 30-day trial of our Premium features.</p>
@@ -39,10 +45,13 @@ const PricingPlan = () => {
 
 
                 </div>
+                <div>
+                    <LargeWithLogoCentered />
+                </div>
 
 
             </div>
-        </>
+        </div>
     )
 }
 

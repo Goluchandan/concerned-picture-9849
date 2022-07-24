@@ -21,25 +21,18 @@ import Landing from "./components/Homepage/Mainhomepage/Landing";
 
 function App() {
   return (
+
     <div>
-      {/* <HomeNavbar /> */}
-      {/* <HomeSameSignUp /> */}
-      {/* <NavbarProduct /> */}
-      {/* <PricingPlan /> */}
 
-      {/* Pages Come here */}
+   
 
-      {/* <Signup /> */}
-
-      {/* <Login /> */}
-      {/* <BillingInvoicing /> */}
-      <Landing />
+    
 
       <Routes>
-        <Route path="/landing" element={<Landing />} />
-        <Route path="/:token" element={<DummyHome />} />
+        {/* <Route path="/landing" element={<Landing />} /> */}
+        {/* <Route path="/:token" element={<DummyHome />} /> */}
 
-        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/" element={<DummyHome />} />
 
         <Route path="/pricing" element={<PricingPlan />} />
         <Route path="/billing-invoicing" element={<BillingInvoicing />} />
