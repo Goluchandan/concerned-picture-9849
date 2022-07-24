@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 
 import "./App.css";
 import React from "react";
-import BillingInvoicing from "./components/Products_Page/Billing&Invoicing/BillingInvoicing";
+ import BillingInvoicing from "./components/Products_Page/Billing&Invoicing/BillingInvoicing";
 
 import { Signup } from "./pages/Signup";
 import { Login } from "./pages/Login";
@@ -18,9 +18,14 @@ import ProjectBudget from "./components/Products_Page/Project_Budget/ProjectsBud
 
 import Reporting from "./components/Products_Page/Reporting&Transp/Reporting";
 
+
+
 function App() {
   return (
-    <div className="App">
+    <div >
+       {/* <HomeNavbar /> */}
+       {/* <HomeSameSignUp /> */}
+       {/* <NavbarProduct /> */}
       {/* <PricingPlan /> */}
 
       {/* Pages Come here */}
@@ -28,10 +33,10 @@ function App() {
       {/* <Signup /> */}
 
       {/* <Login /> */}
-      {/* <BillingInvoicing /> */}
+      <BillingInvoicing />
 
       <Routes>
-        <Route path="/" element={<DummyHome />} />
+        <Route path="/landing" element={<Landing />} />
         <Route path="/:token" element={<DummyHome />} />
 
         {/* <Route path="/" element={<Home />} /> */}

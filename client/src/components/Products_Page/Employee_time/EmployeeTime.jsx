@@ -4,6 +4,7 @@ import SameSignUp2 from '../Same_Sign_up2/Same_Sign_up2'
 import styles from './employee.module.css'
 import EmployeeFAQ from './Employee_FAQ/EmployeeFAQ';
 import { useNavigate } from "react-router-dom";
+import HomeNavbar from '../Home_Navbar/HomeNavbar';
 
 
 
@@ -12,6 +13,9 @@ const EmployeeTime = () => {
 
      return (
           <>
+          <div>
+               <HomeNavbar />
+          </div>
                {/*here i worked on  Employee time tracking software your team will love */}
 
                <div className={styles.Employee_time_tracking_main_div}>

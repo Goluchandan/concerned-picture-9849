@@ -4,6 +4,7 @@ const HomeSameSignUp = () => {
   return (
    
         <>
+        <div className={styles.HomeSamesignUp_main_mainContainer}>
         <div className={styles.HomeSamesignUp_mainContainer}>
             
             <div className={styles.HomeSamesignUp_childContainer}>
@@ -31,6 +32,14 @@ const HomeSameSignUp = () => {
                 </div>
             </div>
         </div>
+            <div>
+                <div className={styles.HomeSamesignUp_childContainer2}>
+                    <h3>Prefer a product demo instead?</h3>
+                    <p>Request a 30-minute personalized demo to see how Toggl Track can meet your time tracking goals</p>
+                    <button>Book a demo</button>
+                </div>
+            </div>
+    </div>    
         </>
 
   )

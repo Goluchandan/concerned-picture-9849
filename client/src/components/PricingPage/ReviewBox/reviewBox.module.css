@@ -2,7 +2,8 @@
     width: 100%;
     margin-top: 150px;
     margin-bottom: 100px;
-    height: 400px;
+    /* height: 400px; */
+    height: auto;
 }
 
 
@@ -41,7 +42,8 @@
 
 
 .reviewBottom {
-    height: 10px;
+    /* height: 10px; */
+    height: auto;
     align-items: center;
     background-color: #fce5d8;
     display: flex;
@@ -64,6 +66,9 @@
     width: 18%;
     padding: 10px;
     height: 50px;
+    width: auto;
+    padding: 15px;
+    height: auto;
     font-size: 16px;
 
 

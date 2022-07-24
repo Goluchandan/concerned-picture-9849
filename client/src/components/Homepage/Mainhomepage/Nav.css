@@ -1,0 +1,13 @@
+.headached {
+  width: 100%;
+  border: 2px solid red;
+}
+.toggle_navbar {
+  background-color: rgb(40, 13, 60);
+}
+.megamenu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: #fff3ed;
+  width: 100%;
+}

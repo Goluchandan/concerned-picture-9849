@@ -10,13 +10,14 @@ import Threeboxes from "./Threeboxes";
 import TogglTrack from "./Toggltrack";
 import Timetracking from "./Timetracking";
 import Footertop from "../Footer/Footer";
-import LargeWithLogoCentered from "../Footer/Footer"
+// import LargeWithLogoCentered from "../Footer/Footer"
 
 function Landing() {
   const [count, setCount] = useState(0);
 
   return (
     <div className="App">
+
       <WithAction />
       <WithSubnavigation />
 
@@ -24,7 +25,6 @@ function Landing() {
 
       <Starttrack />
       <Threeboxes />
-      {/* <Webapp /> */}
       <TogglTrack />
       <Timetracking />
       <Footertop />
