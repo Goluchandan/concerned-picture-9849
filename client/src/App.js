@@ -18,6 +18,8 @@ import ProjectBudget from "./components/Products_Page/Project_Budget/ProjectsBud
 
 import Reporting from "./components/Products_Page/Reporting&Transp/Reporting";
 
+import Landing from "./components/Homepage/Mainhomepage/Landing"
+
 function App() {
   return (
     <div className="App">
@@ -31,7 +33,7 @@ function App() {
       {/* <BillingInvoicing /> */}
 
       <Routes>
-        <Route path="/" element={<DummyHome />} />
+        <Route path="/" element={<Landing />} />
         <Route path="/:token" element={<DummyHome />} />
 
         {/* <Route path="/" element={<Home />} /> */}
