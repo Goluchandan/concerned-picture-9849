@@ -39,7 +39,7 @@ function App() {
         {/* <Route path="/landing" element={<Landing />} /> */}
         {/* <Route path="/:token" element={<DummyHome />} /> */}
 
-        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/" element={<DummyHome />} />
 
         <Route path="/pricing" element={<PricingPlan />} />
         <Route path="/billing-invoicing" element={<BillingInvoicing />} />
