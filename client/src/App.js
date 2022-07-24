@@ -17,6 +17,7 @@ import Payroll from "./components/Products_Page/Payroll/Payroll";
 import ProjectBudget from "./components/Products_Page/Project_Budget/ProjectsBudget";
 
 import Reporting from "./components/Products_Page/Reporting&Transp/Reporting";
+import Landing from "./components/Homepage/Mainhomepage/Landing";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
 
       {/* <Login /> */}
       {/* <BillingInvoicing /> */}
+      <Landing />
 
       <Routes>
         <Route path="/" element={<DummyHome />} />

@@ -10,16 +10,16 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import { ReactNode } from "react";
-import logo1 from "./Images/togglt-Logo.png";
+import logo1 from "../Images/togglt-Logo.png";
 import "./footer.css";
-import face from "./Images/face.jpg";
-import insta from "./Images/insta.jpg";
-import you from "./Images/you.jpg";
-import twi from "./Images/twitter.jpg";
-import git from "./Images/git.jpg";
-import linked from "./Images/linked.jpg";
-import togglplan from "./Images/toglplan.jpg";
-import togglehire from "./Images/togglhire.jpg";
+import face from "../Images/face.jpg";
+import insta from "../Images/insta.jpg";
+import you from "../Images/you.jpg";
+import twi from "../Images/twitter.jpg";
+import git from "../Images/git.jpg";
+import linked from "../Images/linked.jpg";
+import togglplan from "../Images/toglplan.jpg";
+import togglehire from "../Images/togglhire.jpg";
 
 const Logo = (props) => {
   return (
@@ -55,18 +55,14 @@ export default function LargeWithLogoCentered() {
       <div>
         <img src={logo1} alt="" />
       </div>
-      <Box
+      <div
         bg={useColorModeValue("#2c1338")}
         color={useColorModeValue("gray.700", "gray.200")}
       >
-        <Container as={Stack} maxW={"6xl"} py={10}>
-          <SimpleGrid
-            columns={{ base: 1, sm: 2, md: 6 }}
-            spacing={8}
-            color={"white"}
-          >
+        <div className="footersection">
+          <div columns={{ base: 1, sm: 2, md: 6 }} spacing={8} color={"white"}>
             <Stack align={"flex-start"} width={"100%"}>
-              <ListHeader>TOGGL GLOBAL</ListHeader>
+              <h4 className="footerhead">TOGGL GLOBAL</h4>
               <p className="navsemi">Blog</p>
               <p className="navsemi">Our Mission</p>
               <p className="navsemi">
@@ -86,7 +82,9 @@ export default function LargeWithLogoCentered() {
               </Stack>
             </Stack>
             <Stack align={"flex-start"} width={"100%"}>
-              <ListHeader>PRODUCT</ListHeader>
+              <h4 className="footerhead" r>
+                PRODUCT
+              </h4>
               <p className="navsemi">Features</p>
               <p className="navsemi">Pricing</p>
               <p className="navsemi">Integrations</p>
@@ -94,7 +92,7 @@ export default function LargeWithLogoCentered() {
               <p className="navsemi">API</p>
             </Stack>
             <Stack align={"flex-start"} width={"100%"}>
-              <ListHeader>USE CASES</ListHeader>
+              <h4 className="footerhead">USE CASES</h4>
               <p className="navsemi">Billing and Invoicing</p>
               <p className="navsemi">EmployeeTimeTracking</p>
               <p className="navsemi">Project Budgeting</p>
@@ -102,30 +100,30 @@ export default function LargeWithLogoCentered() {
               <p className="navsemi">Payroll</p>
             </Stack>
             <Stack align={"flex-start"} width={"100%"}>
-              <ListHeader>DOWNLOAD</ListHeader>
+              <h4 className="footerhead">DOWNLOAD</h4>
               <p className="navsemi">Mobile Apps</p>
               <p className="navsemi">Desktop Apps</p>
               <p className="navsemi">Browser Extensions</p>
             </Stack>
             <Stack align={"flex-start"} width={"100%"}>
-              <ListHeader>HELP</ListHeader>
+              <h4 className="footerhead">HELP</h4>
               <p className="navsemi">Support & Knowledge</p>
               <p className="navsemi">Base</p>
               <p className="navsemi">Request A Demo</p>
 
               <p className="navsemi">Contact Us</p>
             </Stack>
-            <Stack align={"flex-start"} objectFit={"container"}>
-              <ListHeader>RESOURCES</ListHeader>
+            <div align={"flex-start"} objectFit={"container"}>
+              <h4 className="footerhead">RESOURCES</h4>
               <p className="navsemi">Time Management Hub</p>
               <p className="navsemi">Work From Home Hub</p>
               <p className="navsemi">Business Resources</p>
               <p className="navsemi">Productivity Resources</p>
               <p className="navsemi">Timesheet Templates</p>
               <p className="navsemi">Media Kit</p>
-            </Stack>
-          </SimpleGrid>
-        </Container>
+            </div>
+          </div>
+        </div>
         <div className="Iconssocial">
           <div>
             {" "}
@@ -189,7 +187,7 @@ export default function LargeWithLogoCentered() {
             © 2022 Toggl. All rights reserved.
           </Text>
         </Box>
-      </Box>
+      </div>
     </div>
   );
 }

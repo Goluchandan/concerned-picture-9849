@@ -1,8 +1,8 @@
 import React from "react";
-import people from "./Images/people.jpg";
+import people from "../Images/people.jpg";
 import { Button, Text } from "@chakra-ui/react";
 import { ArrowUpIcon } from "@chakra-ui/icons";
-import booking from "./Images/Booking.jpg";
+import booking from "../Images/Booking.jpg";
 
 import "./Toggletrack.css";
 import Company from "./Company";

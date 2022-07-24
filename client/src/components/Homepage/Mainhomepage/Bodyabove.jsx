@@ -2,7 +2,7 @@ import React from "react";
 import { Heading, Box } from "@chakra-ui/react";
 import { Text } from "@chakra-ui/react";
 import "./bodyabove.css";
-import svc from "./Images/svc.jpg";
+import svc from "../Images/svc.jpg";
 import { HamburgerIcon, ChevronRightIcon } from "@chakra-ui/icons";
 function Bodyabove() {
   return (

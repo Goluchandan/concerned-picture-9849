@@ -46,7 +46,7 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from "@chakra-ui/icons";
-import logo1 from "../Footer/Images/togglt-Logo.png";
+import logo1 from "../Images/togglt-Logo.png";
 import "./Nav.css";
 import WithAction from "./Navbartop";
 

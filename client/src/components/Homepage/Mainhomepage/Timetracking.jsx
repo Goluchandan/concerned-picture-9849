@@ -2,11 +2,11 @@ import React from "react";
 import { Text } from "@chakra-ui/react";
 import { Heading } from "@chakra-ui/react";
 import "./Timetrack.css";
-import watch from "./Images/watch1.jpg";
+import watch from "../Images/watch1.jpg";
 import { Button, ButtonGroup } from "@chakra-ui/react";
-import Designed from "./Images/Designed.jpg";
-import work from "./Images/workwhere.jpg";
-import int from "./Images/100+int.jpg";
+import Designed from "../Images/Designed.jpg";
+import work from "../Images/workwhere.jpg";
+import int from "../Images/100+int.jpg";
 
 function Timetracking() {
   return (
