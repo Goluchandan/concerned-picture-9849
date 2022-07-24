@@ -1,22 +1,30 @@
-
+.HomeSamesignUp_main_mainContainer{
+    display: flex;
+    margin: 0 auto;
+   justify-content:center;
+    
+}
 .HomeSamesignUp_mainContainer{
     background-color: #412A4C;
-    max-width: 600px;
+    max-width: 670px;
     height: 525px;
+    z-index: 2;
+    position: relative;
 }
 .HomeSamesignUp_childContainer{
-    max-width: 460px;
+    max-width: 550px;
     margin: 0 auto;
-    padding : 0px 45px;
+    padding : 0px 70px;
     font-family: 'GT Haptik Medium',sans-serif;
 }
 .HomeSamesignUp_childContainer > h2{
-    padding-top: 60px;
+    /* padding-top: 60px; */
     color: #FCE5D8;
     font-family: 'GT Haptik Medium',sans-serif;
     font-weight: 550;
     line-height: 1.2;
     font-size: clamp(3rem * 0.55, 3.5vw, 3rem);
+    letter-spacing: 1px;
 }
 .HomeSamesignUp_childContainer > p{
     margin-top: -25px;
@@ -24,6 +32,7 @@
     line-height: 1.5;
     font-size: clamp( 1rem * 0.98, 1vw, 1rem );
     margin-bottom: 10px;
+    letter-spacing: 1px;
 }
 .HomeSamesignUp_mainContainer_button_div{
    display: flex; 
@@ -32,7 +41,7 @@
 }
 .HomeSamesignUp_mainContainer_button{
     height: 50px;
-    width: 220px;
+    width: 250px;
     display: flex;
     font-size: 1rem;
     background: white;
@@ -77,5 +86,53 @@
     margin-top: 37px;
     color: #FCE5D8;
     font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.HomeSamesignUp_childContainer2{
+    width: 570px;
+    background-color:rgb(252, 229, 216);
+    height: 390px;
+    margin-top:220px;
+    margin-left: -100px;
+
+}
+
+.HomeSamesignUp_childContainer2 > h3{
+    color: rgb(44, 19, 56);
+    font-family: "GT Haptik Medium", sans-serif;
+    font-weight: 550;
+    line-height: 1.25;
+    font-size: clamp(1.6rem, 2.5vw, 2rem);
+    padding-top:60px;
+    margin-left: 150px;
+    width: 65%;
+}
+.HomeSamesignUp_childContainer2 > p{
+    color: #2C1338;
+    line-height: 1.5;
+    font-size: clamp( 1.125rem * 0.9, 1.25vw, 1.125rem );
+    margin-left: 150px;
+    width: 65%;
     
+}
+.HomeSamesignUp_childContainer2 > button{
+    font-family: 'GT Haptik Medium',sans-serif;
+    font-size: 1rem;
+    padding: 14px 35px;
+    align-items: center;
+    border-radius: 26px;
+    border: 0;
+    cursor: pointer;
+    height: 52px;
+    transition: background-color 150ms linear,color 150ms linear;
+    background-color: #E57CD8;
+    color: #FFF;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+.HomeSamesignUp_childContainer2 > button:hover{
+    background-color: #564260;
+    color: #FFF;
 }

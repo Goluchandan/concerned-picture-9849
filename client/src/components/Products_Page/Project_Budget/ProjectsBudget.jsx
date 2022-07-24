@@ -4,6 +4,7 @@ import SameSignUp2 from '../Same_Sign_up2/Same_Sign_up2'
 import styles from '../Employee_time/employee.module.css'
 import EmployeeFAQ from '../Employee_time/Employee_FAQ/EmployeeFAQ';
 import { useNavigate } from "react-router-dom";
+import HomeNavbar from '../Home_Navbar/HomeNavbar';
 
 
 const ProjectBudget = () => {
@@ -11,6 +12,9 @@ const ProjectBudget = () => {
 
      return (
           <>
+          <div>
+               <HomeNavbar />
+          </div>
                {/*here i worked on  Employee time tracking software your team will love */}
 
                <div className={styles.Employee_time_tracking_main_div} style={{ height: "550px" }}>
