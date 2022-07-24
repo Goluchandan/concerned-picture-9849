@@ -10,7 +10,6 @@ import Threeboxes from "./Threeboxes";
 import TogglTrack from "./Toggltrack";
 import Timetracking from "./Timetracking";
 import Footertop from "../Footer/Footer";
-// import LargeWithLogoCentered from "../Footer/Footer"
 
 function Landing() {
   const [count, setCount] = useState(0);
