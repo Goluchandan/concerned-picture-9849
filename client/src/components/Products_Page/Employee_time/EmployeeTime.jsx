@@ -204,7 +204,6 @@ const EmployeeTime = () => {
                <div style={{ backgroundColor: "#2d1738", textAlign: "left", marginTop: "50px" }}>
                     <div style={{ width: "80%", margin: "0 auto" }}>
                          <Footertop />
-
                     </div>
                </div>
 

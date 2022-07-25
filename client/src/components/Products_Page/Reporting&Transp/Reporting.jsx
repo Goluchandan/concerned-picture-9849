@@ -3,10 +3,8 @@ import SameSignUp from '../Same_Sign_up/Same_Sign-up'
 import SameSignUp2 from '../Same_Sign_up2/Same_Sign_up2'
 import styles from '../Employee_time/employee.module.css'
 import EmployeeFAQ from '../Employee_time/Employee_FAQ/EmployeeFAQ';
-
 import { useNavigate } from "react-router-dom";
 import HomeNavbar from '../Home_Navbar/HomeNavbar';
-
 import Footertop from "../../Homepage/Footer/Footer";
 
 
@@ -209,7 +207,6 @@ const Reporting = () => {
                <div style={{ backgroundColor: "#2d1738", textAlign: "left", marginTop: "50px" }}>
                     <div style={{ width: "80%", margin: "0 auto" }}>
                          <Footertop />
-
                     </div>
                </div>
 

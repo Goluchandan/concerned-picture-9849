@@ -5,7 +5,6 @@ import styles from '../Employee_time/employee.module.css'
 import EmployeeFAQ from '../Employee_time/Employee_FAQ/EmployeeFAQ';
 import { useNavigate } from "react-router-dom";
 import HomeNavbar from '../Home_Navbar/HomeNavbar';
-
 import Footertop from "../../Homepage/Footer/Footer";
 
 
@@ -205,7 +204,6 @@ const Payroll = () => {
                <div style={{ backgroundColor: "#2d1738", textAlign: "left", marginTop: "50px" }}>
                     <div style={{ width: "80%", margin: "0 auto" }}>
                          <Footertop />
-
                     </div>
                </div>
           </>
