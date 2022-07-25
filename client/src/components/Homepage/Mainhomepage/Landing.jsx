@@ -21,13 +21,9 @@ function Landing() {
     <>
 
       <div className="App">
-
         <WithAction />
         <HomeNavbar />
-
-
         <Bodyabove />
-
         <Starttrack />
         <Threeboxes />
         <TogglTrack />
@@ -35,7 +31,6 @@ function Landing() {
         <div style={{ backgroundColor: "#2d1738" }}>
           <div style={{ width: "80%", margin: "0 auto" }}>
             <Footertop />
-
           </div>
         </div>
 

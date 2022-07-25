@@ -5,8 +5,11 @@
   line-height: 1.2;
   font-size: clamp(3rem * 0.55, 3.5vw, 3rem);
   margin: 30px auto;
-  max-width: 850px;
+  width: 850px;
   text-align: center;
+}
+.starttraccontainer{
+  width: 70%;
 }
 .starttracktext > span {
   color: rgb(233, 14, 211);
@@ -35,18 +38,18 @@
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
-
-  width: 70%;
+  width: 79%;
   gap: 20px;
   margin: auto;
 }
 .starttrackhead {
   line-height: 1.5;
-  font-size: clamp(1rem * 0.95, 1vw, 1rem);
+  font-size: clamp(1rem * 0.95, 1.1vw, 1rem);
   color: #e57cd8;
   text-transform: uppercase;
   font-weight: 800;
   margin-bottom: 10px;
+  
 }
 .startboxtext {
   color: #412a4c;
@@ -110,8 +113,8 @@ a {
   color: rebeccapurple;
 }
 .startboxessthree > div {
-  padding: 10px 20px;
-  max-height: 230px;
+  padding: 20px 35px;
+  /* max-height: 230px; */
 }
 .startboxessthree > div:nth-child(2) {
   background: #ffebbd;
@@ -156,9 +159,12 @@ a {
 }
 .threetext {
   margin-bottom: 20px;
-  font-family: "GT Haptik Medium", sans-serif;
-  font-weight: 400;
-  font-size: clamp(0.95rem, 0.7vw, 1.25rem * 1.1);
+  font-size: clamp(1.25rem, 1.5vw, 1.25rem * 1.1);
+  font-family :'GT Haptik Medium',sans-serif;;
+  line-height: 1.35;
+  font-weight: bold;
+  color: #412A4C;
+  height: 150px;
 }
 .starttraccontainer > div > div:nth-child(2) {
   background: #ffebbd;

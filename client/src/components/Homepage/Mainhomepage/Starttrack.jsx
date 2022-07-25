@@ -7,21 +7,22 @@ import save2 from "../Images/save2.jpg";
 
 function Starttrack() {
   return (
-    <div className="starttraccontainer">
+    <>
       <Text className="starttracktext">
         Toggl Track saves you <span>time and money,</span> no matter how you use
         it.
       </Text>
+    <div className="starttraccontainer">
       <div>
         <div>
           <Text className="starttrackhead">BILLING AND INVOICING</Text>
-          <Text className="startboxtext">
+          <Text className="startboxtext" >
             Do you sell your time? We'll help you get the numbers right. Every
             time.
           </Text>
           <button className="starttrackbutton">Learn More</button>
           <div>
-            <img src={save} alt="" />
+            <img style={{width:"480px"}} src={save} alt="" />
           </div>
           <Text className="wesaved">
             "We saved $18,000 by identifying missing billable hours, thanks to
@@ -29,7 +30,7 @@ function Starttrack() {
           </Text>
           <a>— Platinum Companies, Operations Consulting</a>
         </div>
-        <div>
+        <div style={{padding :"40px"}}>
           {" "}
           <Text className="starttrackhead">EMPLOYEE TIME TRACKING</Text>
           <Text className="startboxtext">
@@ -37,7 +38,7 @@ function Starttrack() {
           </Text>
           <button className="starttrackbutton">Learn More</button>
           <div>
-            <img src={save2} alt="" />
+            <img style={{width:"480px"}} src={save2} alt="" />
             <Text className="wesaved">
               "We saved $18,000 by identifying missing billable hours, thanks to
               Toggl Track"
@@ -48,6 +49,7 @@ function Starttrack() {
       </div>
       <div></div>
     </div>
+    </>
   );
 }
 

@@ -7,13 +7,19 @@ import { SignupNav } from "../components/signup/SignupNav";
 import { SignupTopDescription } from "../components/signup/SignupTopDescription";
 import { SignupSideDescription } from "../components/signup/SignupSideDescription";
 import { SignupBottom } from "../components/signup/SignupBottom";
+import { useNavigate } from "react-router-dom";
 
 export const Signup = () => {
+  const navigate = useNavigate();
   // console.log("links:", links.images);
 
   return (
     <div id="signup">
-      <div id="signupNav">
+      <div
+      onClick={() => {
+        navigate("/");
+       }}
+       id="signupNav">
         <SignupNav logo={links.images.logo} logoName="toggltLogo" />
       </div>
 

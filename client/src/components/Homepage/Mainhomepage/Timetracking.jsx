@@ -60,7 +60,7 @@ function Timetracking() {
           <div>
             <div className="headIcons">Designed to be easy</div>
             <div>
-              Designed to be easy No instruction manual needed. But if you ever
+               No instruction manual needed. But if you ever
               need help, our support team has a track record of responding
               within 3 hours!
             </div>
