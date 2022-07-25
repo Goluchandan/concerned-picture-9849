@@ -17,10 +17,10 @@ import Footertop from "../components/Homepage/Footer/Footer";
 export const Login = () => {
   return (
     <>
+        {/* "HEADER" Component goes here */}
       <HomeNavbar />
 
       <div id="login">
-        {/* "HEADER" Component goes here */}
 
 
         <LoginForm

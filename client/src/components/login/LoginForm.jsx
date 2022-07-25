@@ -22,7 +22,7 @@ export const LoginForm = ({ googleButtonImage, appleButtonLogo }) => {
 
     let error = null;
     let response = await axios
-      .post("https://toggl-track-clone.herokuapp.com/login", user)
+      .post("https://toggl-track-clone.herokuapp.com/auth/login", user)
       .catch((err) => {
         console.log("err:", err);
         error = err.response.data.message;

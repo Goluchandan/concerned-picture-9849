@@ -21,7 +21,7 @@ export const SignupForm = ({ googleButtonImage, appleButtonLogo }) => {
     console.log("user in signup:", user);
     let payload = JSON.stringify(user);
 
-    fetch("https://toggl-track-clone.herokuapp.com/signup", {
+    fetch("https://toggl-track-clone.herokuapp.com/auth/signup", {
       headers: {
         "Content-Type": "application/json",
       },
