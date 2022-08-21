@@ -59,14 +59,23 @@ Toggl Track is a time tracking software operated by Toggl OÜ, headquartered in 
 
 ## Screeshots
 
+# Home page
 ![Home page](https://www.linkpicture.com/q/Screenshot-595_1.png)
+# Navbar With Dropdown
 ![Navbar With Dropdown](https://www.linkpicture.com/q/Screenshot-601.png)
+# Footer part
 ![Footer part](https://www.linkpicture.com/q/Screenshot-599.png)
+# Price page
 ![Price page](https://www.linkpicture.com/q/Screenshot-600.png)
+# Employee page
 ![Employee page](https://www.linkpicture.com/q/Screenshot-602.png)
+# Employee centre page
 ![Employee centre page](https://www.linkpicture.com/q/Screenshot-604.png)
+# Login page
 ![Login page](https://www.linkpicture.com/q/Screenshot-605_2.png)
+# Google SignUp page
 ![Google SignUp page](https://www.linkpicture.com/q/Screenshot-606.png)
+# FAQ Section
 ![FAQ Section](https://www.linkpicture.com/q/Screenshot-607.png)
 
 ## Challenges
